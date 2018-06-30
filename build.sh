@@ -103,5 +103,5 @@ do
 
     if [ "${recreate}" = true ] || [ ! -d "${version}" ]; then
         openapi2jsonschema -o "${version}" --kubernetes --prefix "${prefix}" "${schema}"
-    fi    
+    fi
 done
