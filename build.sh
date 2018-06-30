@@ -10,11 +10,14 @@
 REPO="garethr/kubernetes-json-schema"
 
 declare -a arr=(master
+                v1.11.0
+                v1.10.5
                 v1.10.4
                 v1.10.3
                 v1.10.2
                 v1.10.1
                 v1.10.0
+                v1.9.9
                 v1.9.8
                 v1.9.7
                 v1.9.6
@@ -24,6 +27,7 @@ declare -a arr=(master
                 v1.9.2
                 v1.9.1
                 v1.9.0
+                v1.8.14
                 v1.8.13
                 v1.8.12
                 v1.8.11
@@ -81,10 +85,23 @@ declare -a arr=(master
 
 for version in "${arr[@]}"
 do
+    recreate=false
     schema=https://raw.githubusercontent.com/kubernetes/kubernetes/${version}/api/openapi-spec/swagger.json
     prefix=https://raw.githubusercontent.com/${REPO}/master/${version}/_definitions.json
 
-    openapi2jsonschema -o "${version}-standalone" --kubernetes --stand-alone "${schema}"
-    openapi2jsonschema -o "${version}-local" --kubernetes "${schema}"
-    openapi2jsonschema -o "${version}" --kubernetes --prefix "${prefix}" "${schema}"
+    if [ "${recreate}" = true ] || [ ! -d "${version}-standalone-strict" ]; then
+        openapi2jsonschema -o "${version}-standalone-strict" --kubernetes --stand-alone --strict "${schema}"
+    fi
+
+    if [ "${recreate}" = true ] || [ ! -d "${version}-standalone" ]; then
+        openapi2jsonschema -o "${version}-standalone" --kubernetes --stand-alone "${schema}"
+    fi
+
+    if [ "${recreate}" = true ] || [ ! -d -o "${version}-local" ]; then
+        openapi2jsonschema -o "${version}-local" --kubernetes "${schema}"
+    fi
+
+    if [ "${recreate}" = true ] || [ ! -d "${version}" ]; then
+        openapi2jsonschema -o "${version}" --kubernetes --prefix "${prefix}" "${schema}"
+    fi    
 done

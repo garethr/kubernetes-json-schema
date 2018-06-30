@@ -113,6 +113,11 @@
         {
           "kind": "DeleteOptions", 
           "version": "v1beta1", 
+          "group": "coordination.k8s.io"
+        }, 
+        {
+          "kind": "DeleteOptions", 
+          "version": "v1beta1", 
           "group": "events.k8s.io"
         }, 
         {
@@ -300,6 +305,7 @@
             "string", 
             "null"
           ], 
+          "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
           "format": "date-time"
         }, 
         "clusterName": {
@@ -544,6 +550,7 @@
             "string", 
             "null"
           ], 
+          "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
           "format": "date-time"
         }, 
         "annotations": {
