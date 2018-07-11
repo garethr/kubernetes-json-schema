@@ -6,6 +6,11 @@
 #   X.Y.Z - URL referenced based on the specified GitHub repository
 #   X.Y.Z-standalone - de-referenced schemas, more useful as standalone documents
 #   X.Y.Z-local - relative references, useful to avoid the network dependency
+#
+# NOTE:
+# - You need to run it in a Python2 environment.
+# - You can look if there are any new releases at:
+#   https://github.com/kubernetes/kubernetes/releases
 
 REPO="garethr/kubernetes-json-schema"
 
