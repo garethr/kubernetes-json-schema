@@ -97,7 +97,7 @@ do
         openapi2jsonschema -o "${version}-standalone" --kubernetes --stand-alone "${schema}"
     fi
 
-    if [ "${recreate}" = true ] || [ ! -d -o "${version}-local" ]; then
+    if [ "${recreate}" = true ] || [ ! -d "${version}-local" ]; then
         openapi2jsonschema -o "${version}-local" --kubernetes "${schema}"
     fi
 
