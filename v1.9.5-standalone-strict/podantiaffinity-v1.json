@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "Pod anti affinity is a group of inter pod anti affinity scheduling rules.", 
   "properties": {
     "requiredDuringSchedulingIgnoredDuringExecution": {

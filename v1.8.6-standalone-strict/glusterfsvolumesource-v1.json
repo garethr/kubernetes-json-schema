@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "Represents a Glusterfs mount that lasts the lifetime of a pod. Glusterfs volumes do not support ownership management or SELinux relabeling.", 
   "required": [
     "endpoints", 
     "path"
   ], 
-  "description": "Represents a Glusterfs mount that lasts the lifetime of a pod. Glusterfs volumes do not support ownership management or SELinux relabeling.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "path": {
       "type": [

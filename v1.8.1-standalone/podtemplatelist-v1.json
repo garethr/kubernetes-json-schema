@@ -1,4 +1,5 @@
 {
+  "description": "PodTemplateList is a list of PodTemplates.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": ""
     }
   ], 
-  "description": "PodTemplateList is a list of PodTemplates.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

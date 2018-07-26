@@ -1,11 +1,13 @@
 {
-  "additionalProperties": false, 
+  "description": "Represents an ISCSI disk. ISCSI volumes can only be mounted as read/write once. ISCSI volumes support ownership management and SELinux relabeling.", 
   "required": [
     "targetPortal", 
     "iqn", 
     "lun"
   ], 
-  "description": "Represents an ISCSI disk. ISCSI volumes can only be mounted as read/write once. ISCSI volumes support ownership management and SELinux relabeling.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "targetPortal": {
       "type": [
@@ -69,16 +71,16 @@
       ], 
       "description": "Optional: Defaults to 'default' (tcp). iSCSI interface name that uses an iSCSI transport."
     }, 
+    "chapAuthDiscovery": {
+      "type": "boolean", 
+      "description": "whether support iSCSI Discovery CHAP authentication"
+    }, 
     "iqn": {
       "type": [
         "string", 
         "null"
       ], 
       "description": "Target iSCSI Qualified Name."
-    }, 
-    "chapAuthDiscovery": {
-      "type": "boolean", 
-      "description": "whether support iSCSI Discovery CHAP authentication"
     }, 
     "lun": {
       "type": "integer", 

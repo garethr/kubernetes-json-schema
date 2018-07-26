@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.core.v1.EmptyDirVolumeSource instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.11/_definitions.json#/definitions/io.k8s.api.core.v1.EmptyDirVolumeSource"
+  "description": "Represents an empty directory for a pod. Empty directory volumes support ownership management and SELinux relabeling.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EmptyDirVolumeSource"
 }

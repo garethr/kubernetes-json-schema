@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "NamespaceList is a list of Namespaces.", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": ""
     }
   ], 
-  "description": "NamespaceList is a list of Namespaces.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

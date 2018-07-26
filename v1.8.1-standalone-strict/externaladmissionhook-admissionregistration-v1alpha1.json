@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "ExternalAdmissionHook describes an external admission webhook and the resources and operations it applies to.", 
   "required": [
     "name", 
     "clientConfig"
   ], 
-  "description": "ExternalAdmissionHook describes an external admission webhook and the resources and operations it applies to.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "rules": {
       "items": {

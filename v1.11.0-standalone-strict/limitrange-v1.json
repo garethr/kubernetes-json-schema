@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "LimitRange sets resource usage limits for each kind of resource in a Namespace.", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "LimitRange", 
@@ -7,7 +7,9 @@
       "group": ""
     }
   ], 
-  "description": "LimitRange sets resource usage limits for each kind of resource in a Namespace.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "kind": {
       "type": [

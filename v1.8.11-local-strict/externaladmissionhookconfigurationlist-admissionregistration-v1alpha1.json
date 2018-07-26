@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.admissionregistration.v1alpha1.ExternalAdmissionHookConfigurationList instead.", 
+  "description": "ExternalAdmissionHookConfigurationList is a list of ExternalAdmissionHookConfiguration.", 
   "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.ExternalAdmissionHookConfigurationList"
 }

@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "Event is a report of an event somewhere in the cluster.", 
   "required": [
     "metadata", 
     "involvedObject"
@@ -11,7 +11,9 @@
       "group": ""
     }
   ], 
-  "description": "Event is a report of an event somewhere in the cluster.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "count": {
       "type": "integer", 

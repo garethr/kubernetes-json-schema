@@ -1,4 +1,5 @@
 {
+  "description": "ConfigMapList is a resource containing a list of ConfigMap objects.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": ""
     }
   ], 
-  "description": "ConfigMapList is a resource containing a list of ConfigMap objects.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

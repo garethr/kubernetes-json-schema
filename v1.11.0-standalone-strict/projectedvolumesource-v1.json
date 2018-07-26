@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "Represents a projected volume source", 
   "required": [
     "sources"
   ], 
-  "description": "Represents a projected volume source", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "sources": {
       "items": {

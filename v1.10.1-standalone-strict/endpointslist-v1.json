@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "EndpointsList is a list of endpoints.", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": ""
     }
   ], 
-  "description": "EndpointsList is a list of endpoints.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

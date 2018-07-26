@@ -1,4 +1,5 @@
 {
+  "description": "ControllerRevisionList is a resource containing a list of ControllerRevision objects.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": "apps"
     }
   ], 
-  "description": "ControllerRevisionList is a resource containing a list of ControllerRevision objects.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "StatefulSetStatus represents the current state of a StatefulSet.", 
   "required": [
     "replicas"
   ], 
-  "description": "StatefulSetStatus represents the current state of a StatefulSet.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "updateRevision": {
       "type": [
@@ -89,13 +91,13 @@
           }
         }
       }, 
-      "x-kubernetes-patch-merge-key": "type", 
       "type": [
         "array", 
         "null"
       ], 
       "description": "Represents the latest available observations of a statefulset's current state.", 
-      "x-kubernetes-patch-strategy": "merge"
+      "x-kubernetes-patch-strategy": "merge", 
+      "x-kubernetes-patch-merge-key": "type"
     }
   }
 }

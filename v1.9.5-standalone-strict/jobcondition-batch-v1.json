@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "JobCondition describes current state of a job.", 
   "required": [
     "type", 
     "status"
   ], 
-  "description": "JobCondition describes current state of a job.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "type": [

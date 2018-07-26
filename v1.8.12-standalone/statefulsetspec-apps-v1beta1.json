@@ -1,8 +1,10 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "template", 
     "serviceName"
   ], 
+  "type": "object", 
   "description": "A StatefulSetSpec is the specification of a StatefulSet.", 
   "properties": {
     "replicas": {

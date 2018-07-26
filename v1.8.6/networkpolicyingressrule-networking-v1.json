@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.networking.v1.NetworkPolicyIngressRule instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.6/_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyIngressRule"
+  "description": "NetworkPolicyIngressRule describes a particular set of traffic that is allowed to the pods matched by a NetworkPolicySpec's podSelector. The traffic must match both ports and from.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyIngressRule"
 }

@@ -1,4 +1,5 @@
 {
+  "description": "DeploymentList is a list of Deployments.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": "apps"
     }
   ], 
-  "description": "DeploymentList is a list of Deployments.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

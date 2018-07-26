@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "SubjectAccessReviewStatus", 
   "required": [
     "allowed"
   ], 
-  "description": "SubjectAccessReviewStatus", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "reason": {
       "type": [

@@ -1,4 +1,5 @@
 {
+  "description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject.", 
   "required": [
     "subjects", 
     "roleRef"
@@ -10,7 +11,8 @@
       "group": "rbac.authorization.k8s.io"
     }
   ], 
-  "description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "roleRef": {
       "required": [

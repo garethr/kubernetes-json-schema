@@ -1,11 +1,18 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "ReplicationControllerSpec is the specification of a replication controller.", 
   "properties": {
-    "replicas": {
-      "type": "integer", 
-      "description": "Replicas is the number of desired replicas. This is a pointer to distinguish between explicit zero and unspecified. Defaults to 1. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller#what-is-a-replicationcontroller", 
-      "format": "int32"
+    "selector": {
+      "additionalProperties": {
+        "type": [
+          "string", 
+          "null"
+        ]
+      }, 
+      "type": "object", 
+      "description": "Selector is a label query over pods that should match the Replicas count. If Selector is empty, it is defaulted to the labels present on the Pod template. Label keys and values that must match in order to be controlled by this replication controller, if empty defaulted to labels on Pod template. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors"
     }, 
     "minReadySeconds": {
       "type": "integer", 
@@ -4647,15 +4654,10 @@
         }
       }
     }, 
-    "selector": {
-      "additionalProperties": {
-        "type": [
-          "string", 
-          "null"
-        ]
-      }, 
-      "type": "object", 
-      "description": "Selector is a label query over pods that should match the Replicas count. If Selector is empty, it is defaulted to the labels present on the Pod template. Label keys and values that must match in order to be controlled by this replication controller, if empty defaulted to labels on Pod template. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors"
+    "replicas": {
+      "type": "integer", 
+      "description": "Replicas is the number of desired replicas. This is a pointer to distinguish between explicit zero and unspecified. Defaults to 1. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller#what-is-a-replicationcontroller", 
+      "format": "int32"
     }
   }
 }

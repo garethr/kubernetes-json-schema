@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "NetworkPolicy describes what network traffic is allowed for a set of Pods", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "NetworkPolicy", 
@@ -7,7 +7,9 @@
       "group": "extensions"
     }
   ], 
-  "description": "NetworkPolicy describes what network traffic is allowed for a set of Pods", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "kind": {
       "type": [

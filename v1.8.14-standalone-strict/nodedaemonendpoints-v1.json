@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "NodeDaemonEndpoints lists ports opened by daemons running on the Node.", 
   "properties": {
     "kubeletEndpoint": {

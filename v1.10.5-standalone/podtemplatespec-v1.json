@@ -1,4 +1,6 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "PodTemplateSpec describes the data a pod should have when created from a template", 
   "properties": {
     "spec": {

@@ -1,7 +1,9 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "replicas"
   ], 
+  "type": "object", 
   "description": "represents the current status of a scale subresource.", 
   "properties": {
     "replicas": {

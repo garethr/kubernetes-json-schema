@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "PortworxVolumeSource represents a Portworx volume resource.", 
   "required": [
     "volumeID"
   ], 
-  "description": "PortworxVolumeSource represents a Portworx volume resource.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "readOnly": {
       "type": "boolean", 

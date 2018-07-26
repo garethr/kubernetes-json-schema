@@ -1,4 +1,6 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "rollingUpdate": {
       "description": "Spec to control the desired behavior of daemon set rolling update.", 

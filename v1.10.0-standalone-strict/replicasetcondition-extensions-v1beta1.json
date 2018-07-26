@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "ReplicaSetCondition describes the state of a replica set at a certain point.", 
   "required": [
     "type", 
     "status"
   ], 
-  "description": "ReplicaSetCondition describes the state of a replica set at a certain point.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "type": [
@@ -13,12 +15,12 @@
       ], 
       "description": "Status of the condition, one of True, False, Unknown."
     }, 
-    "lastTransitionTime": {
+    "type": {
       "type": [
         "string", 
         "null"
       ], 
-      "format": "date-time"
+      "description": "Type of replica set condition."
     }, 
     "message": {
       "type": [
@@ -27,12 +29,12 @@
       ], 
       "description": "A human readable message indicating details about the transition."
     }, 
-    "type": {
+    "lastTransitionTime": {
       "type": [
         "string", 
         "null"
       ], 
-      "description": "Type of replica set condition."
+      "format": "date-time"
     }, 
     "reason": {
       "type": [

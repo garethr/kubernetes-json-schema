@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "Selects a key from a ConfigMap.", 
   "required": [
     "key"
   ], 
-  "description": "Selects a key from a ConfigMap.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "optional": {
       "type": "boolean", 

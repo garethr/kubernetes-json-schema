@@ -1,4 +1,5 @@
 {
+  "description": "SubjectAccessReview checks whether or not a user or group can perform an action.", 
   "required": [
     "spec"
   ], 
@@ -9,7 +10,8 @@
       "group": "authorization.k8s.io"
     }
   ], 
-  "description": "SubjectAccessReview checks whether or not a user or group can perform an action.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "required": [

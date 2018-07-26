@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.storage.v1.StorageClass instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.8/_definitions.json#/definitions/io.k8s.api.storage.v1.StorageClass"
+  "description": "StorageClass describes the parameters for a class of storage for which PersistentVolumes can be dynamically provisioned.\n\nStorageClasses are non-namespaced; the name of the storage class according to etcd is in ObjectMeta.Name.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1.StorageClass"
 }

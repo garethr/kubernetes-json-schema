@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "TCPSocketAction describes an action based on opening a socket", 
   "required": [
     "port"
   ], 
-  "description": "TCPSocketAction describes an action based on opening a socket", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "host": {
       "type": [

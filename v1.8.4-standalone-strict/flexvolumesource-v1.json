@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "FlexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin. This is an alpha feature and may change in future.", 
   "required": [
     "driver"
   ], 
-  "description": "FlexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin. This is an alpha feature and may change in future.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "secretRef": {
       "additionalProperties": false, 
@@ -18,12 +20,9 @@
         }
       }
     }, 
-    "fsType": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. \"ext4\", \"xfs\", \"ntfs\". The default filesystem depends on FlexVolume script."
+    "readOnly": {
+      "type": "boolean", 
+      "description": "Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts."
     }, 
     "driver": {
       "type": [
@@ -31,10 +30,6 @@
         "null"
       ], 
       "description": "Driver is the name of the driver to use for this volume."
-    }, 
-    "readOnly": {
-      "type": "boolean", 
-      "description": "Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts."
     }, 
     "options": {
       "additionalProperties": {
@@ -45,6 +40,13 @@
       }, 
       "type": "object", 
       "description": "Optional: Extra command options if any."
+    }, 
+    "fsType": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. \"ext4\", \"xfs\", \"ntfs\". The default filesystem depends on FlexVolume script."
     }
   }
 }

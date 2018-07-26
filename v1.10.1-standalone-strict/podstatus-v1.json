@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "PodStatus represents information about the status of a pod. Status may trail the actual state of a system.", 
   "properties": {
     "initContainerStatuses": {
@@ -573,13 +575,13 @@
           }
         }
       }, 
-      "x-kubernetes-patch-merge-key": "type", 
       "type": [
         "array", 
         "null"
       ], 
       "description": "Current service state of pod. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-conditions", 
-      "x-kubernetes-patch-strategy": "merge"
+      "x-kubernetes-patch-strategy": "merge", 
+      "x-kubernetes-patch-merge-key": "type"
     }
   }
 }

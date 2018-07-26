@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "HTTPGetAction describes an action based on HTTP Get requests.", 
   "required": [
     "port"
   ], 
-  "description": "HTTPGetAction describes an action based on HTTP Get requests.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "path": {
       "type": [

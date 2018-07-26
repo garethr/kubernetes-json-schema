@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.", 
   "properties": {
     "name": {

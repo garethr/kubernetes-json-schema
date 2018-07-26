@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "SelfSubjectAccessReview checks whether or the current user can perform an action.  Not filling in a spec.namespace means \"in all namespaces\".  Self is a special case, because users should always be able to check whether they can perform an action", 
   "required": [
     "spec"
   ], 
@@ -10,7 +10,9 @@
       "group": "authorization.k8s.io"
     }
   ], 
-  "description": "SelfSubjectAccessReview checks whether or the current user can perform an action.  Not filling in a spec.namespace means \"in all namespaces\".  Self is a special case, because users should always be able to check whether they can perform an action", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "additionalProperties": false, 

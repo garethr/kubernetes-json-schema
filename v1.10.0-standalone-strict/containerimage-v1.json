@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "Describe a container image", 
   "required": [
     "names"
   ], 
-  "description": "Describe a container image", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "sizeBytes": {
       "type": "integer", 

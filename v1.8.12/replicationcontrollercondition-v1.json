@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.core.v1.ReplicationControllerCondition instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.12/_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationControllerCondition"
+  "description": "ReplicationControllerCondition describes the state of a replication controller at a certain point.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationControllerCondition"
 }

@@ -1,4 +1,5 @@
 {
+  "description": "ReplicationControllerList is a collection of replication controllers.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": ""
     }
   ], 
-  "description": "ReplicationControllerList is a collection of replication controllers.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

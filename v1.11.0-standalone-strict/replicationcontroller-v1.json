@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "ReplicationController represents the configuration of a replication controller.", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "ReplicationController", 
@@ -7,7 +7,9 @@
       "group": ""
     }
   ], 
-  "description": "ReplicationController represents the configuration of a replication controller.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "additionalProperties": false, 

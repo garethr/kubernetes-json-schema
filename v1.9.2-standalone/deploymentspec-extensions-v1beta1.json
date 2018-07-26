@@ -1,7 +1,9 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "template"
   ], 
+  "type": "object", 
   "description": "DeploymentSpec is the specification of the desired behavior of the Deployment.", 
   "properties": {
     "progressDeadlineSeconds": {

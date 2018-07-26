@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "PersistentVolumeStatus is the current status of a persistent volume.", 
   "properties": {
     "phase": {

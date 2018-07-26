@@ -2,13 +2,5 @@
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
   "description": "Preconditions must be fulfilled before an operation (update, delete, etc.) is carried out.", 
-  "properties": {
-    "uid": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "Specifies the target UID."
-    }
-  }
+  "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Preconditions"
 }

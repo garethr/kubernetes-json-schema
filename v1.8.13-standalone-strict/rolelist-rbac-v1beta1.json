@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "RoleList is a collection of Roles", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": "rbac.authorization.k8s.io"
     }
   ], 
-  "description": "RoleList is a collection of Roles", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

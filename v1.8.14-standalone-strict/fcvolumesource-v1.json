@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "Represents a Fibre Channel volume. Fibre Channel volumes can only be mounted as read/write once. Fibre Channel volumes support ownership management and SELinux relabeling.", 
   "properties": {
     "targetWWNs": {
@@ -15,10 +17,6 @@
       ], 
       "description": "Optional: FC target worldwide names (WWNs)"
     }, 
-    "readOnly": {
-      "type": "boolean", 
-      "description": "Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts."
-    }, 
     "wwids": {
       "items": {
         "type": [
@@ -31,6 +29,10 @@
         "null"
       ], 
       "description": "Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously."
+    }, 
+    "readOnly": {
+      "type": "boolean", 
+      "description": "Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts."
     }, 
     "lun": {
       "type": "integer", 

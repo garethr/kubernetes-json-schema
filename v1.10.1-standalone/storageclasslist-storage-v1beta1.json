@@ -1,4 +1,5 @@
 {
+  "description": "StorageClassList is a collection of storage classes.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": "storage.k8s.io"
     }
   ], 
-  "description": "StorageClassList is a collection of storage classes.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

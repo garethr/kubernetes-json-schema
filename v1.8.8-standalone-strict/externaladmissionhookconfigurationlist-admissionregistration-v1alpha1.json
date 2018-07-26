@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "ExternalAdmissionHookConfigurationList is a list of ExternalAdmissionHookConfiguration.", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": "admissionregistration.k8s.io"
     }
   ], 
-  "description": "ExternalAdmissionHookConfigurationList is a list of ExternalAdmissionHookConfiguration.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

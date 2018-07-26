@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.core.v1.Event instead.", 
+  "description": "Event is a report of an event somewhere in the cluster.", 
   "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Event"
 }

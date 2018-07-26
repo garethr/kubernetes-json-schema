@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "LimitRangeSpec defines a min/max usage limit for resources that match on kind.", 
   "required": [
     "limits"
   ], 
-  "description": "LimitRangeSpec defines a min/max usage limit for resources that match on kind.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "limits": {
       "items": {

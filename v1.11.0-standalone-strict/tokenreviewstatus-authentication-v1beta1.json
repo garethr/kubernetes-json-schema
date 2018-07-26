@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "TokenReviewStatus is the result of the token authentication request.", 
   "properties": {
     "authenticated": {

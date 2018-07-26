@@ -1,7 +1,9 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "port"
   ], 
+  "type": "object", 
   "description": "ServicePort contains information on service's port.", 
   "properties": {
     "protocol": {

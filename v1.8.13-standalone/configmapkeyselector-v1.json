@@ -1,7 +1,9 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "key"
   ], 
+  "type": "object", 
   "description": "Selects a key from a ConfigMap.", 
   "properties": {
     "optional": {

@@ -1,4 +1,5 @@
 {
+  "description": "NodeList is the whole list of all Nodes which have been registered with master.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": ""
     }
   ], 
-  "description": "NodeList is the whole list of all Nodes which have been registered with master.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

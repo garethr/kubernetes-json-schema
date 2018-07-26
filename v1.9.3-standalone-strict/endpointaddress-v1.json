@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "EndpointAddress is a tuple that describes single IP address.", 
   "required": [
     "ip"
   ], 
-  "description": "EndpointAddress is a tuple that describes single IP address.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "ip": {
       "type": [

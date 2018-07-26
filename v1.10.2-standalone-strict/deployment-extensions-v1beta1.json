@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "DEPRECATED - This group version of Deployment is deprecated by apps/v1beta2/Deployment. See the release notes for more information. Deployment enables declarative updates for Pods and ReplicaSets.", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "Deployment", 
@@ -7,7 +7,9 @@
       "group": "extensions"
     }
   ], 
-  "description": "DEPRECATED - This group version of Deployment is deprecated by apps/v1beta2/Deployment. See the release notes for more information. Deployment enables declarative updates for Pods and ReplicaSets.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "additionalProperties": false, 

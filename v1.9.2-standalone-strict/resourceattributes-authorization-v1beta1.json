@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "ResourceAttributes includes the authorization attributes available for resource requests to the Authorizer interface", 
   "properties": {
     "resource": {

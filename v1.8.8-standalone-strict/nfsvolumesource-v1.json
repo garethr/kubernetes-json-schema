@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "Represents an NFS mount that lasts the lifetime of a pod. NFS volumes do not support ownership management or SELinux relabeling.", 
   "required": [
     "server", 
     "path"
   ], 
-  "description": "Represents an NFS mount that lasts the lifetime of a pod. NFS volumes do not support ownership management or SELinux relabeling.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "path": {
       "type": [

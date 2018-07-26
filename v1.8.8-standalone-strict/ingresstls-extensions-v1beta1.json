@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "IngressTLS describes the transport layer security associated with an Ingress.", 
   "properties": {
     "hosts": {

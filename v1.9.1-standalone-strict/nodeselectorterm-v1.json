@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "A null or empty node selector term matches no objects.", 
   "required": [
     "matchExpressions"
   ], 
-  "description": "A null or empty node selector term matches no objects.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "matchExpressions": {
       "items": {

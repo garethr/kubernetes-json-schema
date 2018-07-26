@@ -1,4 +1,5 @@
 {
+  "description": "TokenReview attempts to authenticate a token to a known user. Note: TokenReview requests may be cached by the webhook token authenticator plugin in the kube-apiserver.", 
   "required": [
     "spec"
   ], 
@@ -9,7 +10,8 @@
       "group": "authentication.k8s.io"
     }
   ], 
-  "description": "TokenReview attempts to authenticate a token to a known user. Note: TokenReview requests may be cached by the webhook token authenticator plugin in the kube-apiserver.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "description": "TokenReviewStatus is the result of the token authentication request.", 

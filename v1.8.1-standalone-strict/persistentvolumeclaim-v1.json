@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "PersistentVolumeClaim is a user's request for and claim to a persistent volume", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "PersistentVolumeClaim", 
@@ -7,7 +7,9 @@
       "group": ""
     }
   ], 
-  "description": "PersistentVolumeClaim is a user's request for and claim to a persistent volume", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "additionalProperties": false, 

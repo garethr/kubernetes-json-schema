@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "Node affinity is a group of node affinity scheduling rules.", 
   "properties": {
     "requiredDuringSchedulingIgnoredDuringExecution": {

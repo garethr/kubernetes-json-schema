@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "EnvVar represents an environment variable present in a Container.", 
   "required": [
     "name"
   ], 
-  "description": "EnvVar represents an environment variable present in a Container.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "valueFrom": {
       "additionalProperties": false, 

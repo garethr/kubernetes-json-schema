@@ -1,4 +1,5 @@
 {
+  "description": "IngressList is a collection of Ingress.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": "extensions"
     }
   ], 
-  "description": "IngressList is a collection of Ingress.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

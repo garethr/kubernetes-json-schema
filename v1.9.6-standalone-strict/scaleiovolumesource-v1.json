@@ -1,11 +1,13 @@
 {
-  "additionalProperties": false, 
+  "description": "ScaleIOVolumeSource represents a persistent ScaleIO volume", 
   "required": [
     "gateway", 
     "system", 
     "secretRef"
   ], 
-  "description": "ScaleIOVolumeSource represents a persistent ScaleIO volume", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "storageMode": {
       "type": [

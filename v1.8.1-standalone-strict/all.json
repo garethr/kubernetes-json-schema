@@ -1,2266 +1,1324 @@
 {
   "oneOf": [
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.NonResourceAttributes"
+      "$ref": "statefulsetupdatestrategy-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.StatefulSetUpdateStrategy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetUpdateStrategy"
+      "$ref": "externaladmissionhookconfigurationlist-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.ExternalAdmissionHookConfigurationList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.ExternalAdmissionHookConfigurationList"
+      "$ref": "podstatus-v1.json#/io.k8s.api.core.v1.PodStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodStatus"
+      "$ref": "httpgetaction-v1.json#/io.k8s.api.core.v1.HTTPGetAction"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.HTTPGetAction"
+      "$ref": "persistentvolumelist-v1.json#/io.k8s.api.core.v1.PersistentVolumeList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeList"
+      "$ref": "daemonsetspec-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DaemonSetSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetSpec"
+      "$ref": "selfsubjectrulesreview-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.SelfSubjectRulesReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SelfSubjectRulesReview"
+      "$ref": "scale-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.Scale"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.Scale"
+      "$ref": "tcpsocketaction-v1.json#/io.k8s.api.core.v1.TCPSocketAction"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.TCPSocketAction"
+      "$ref": "customresourcedefinitioncondition-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EventSource"
+      "$ref": "horizontalpodautoscaler-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscaler"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionCondition"
+      "$ref": "preferredschedulingterm-v1.json#/io.k8s.api.core.v1.PreferredSchedulingTerm"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.CronJobStatus"
+      "$ref": "deploymentcondition-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DeploymentCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscaler"
+      "$ref": "apiservicestatus-apiregistration-v1beta1.json#/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SELinuxOptions"
+      "$ref": "scalespec-autoscaling-v1.json#/io.k8s.api.autoscaling.v1.ScaleSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PreferredSchedulingTerm"
+      "$ref": "nodestatus-v1.json#/io.k8s.api.core.v1.NodeStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceRequirements"
+      "$ref": "ingressrule-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.IngressRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolume"
+      "$ref": "serveraddressbyclientcidr-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.ServerAddressByClientCIDR"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentCondition"
+      "$ref": "networkpolicyingressrule-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.NetworkPolicyIngressRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceStatus"
+      "$ref": "envvar-v1.json#/io.k8s.api.core.v1.EnvVar"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.ScaleSpec"
+      "$ref": "deployment-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.Deployment"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeStatus"
+      "$ref": "clusterrolebindinglist-rbac-v1.json#/io.k8s.api.rbac.v1.ClusterRoleBindingList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentStatus"
+      "$ref": "resourcemetricsource-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.ResourceMetricSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressRule"
+      "$ref": "deleteoptions-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.DeleteOptions"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.WeightedPodAffinityTerm"
+      "$ref": "statefulset-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.StatefulSet"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.FSGroupStrategyOptions"
+      "$ref": "eviction-policy-v1beta1.json#/io.k8s.api.policy.v1beta1.Eviction"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeList"
+      "$ref": "replicationcontrollerlist-v1.json#/io.k8s.api.core.v1.ReplicationControllerList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ServerAddressByClientCIDR"
+      "$ref": "selfsubjectrulesreview-authorization-v1.json#/io.k8s.api.authorization.v1.SelfSubjectRulesReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyIngressRule"
+      "$ref": "deploymentlist-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DeploymentList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodSecurityContext"
+      "$ref": "deploymentcondition-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.DeploymentCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSet"
+      "$ref": "statefulsetupdatestrategy-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.StatefulSetUpdateStrategy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ComponentStatusList"
+      "$ref": "selfsubjectaccessreviewspec-authorization-v1.json#/io.k8s.api.authorization.v1.SelfSubjectAccessReviewSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EnvVar"
+      "$ref": "rollingupdatedeployment-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.RollingUpdateDeployment"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.Deployment"
+      "$ref": "event-v1.json#/io.k8s.api.core.v1.Event"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EnvVar"
+      "$ref": "resourcequotaspec-v1.json#/io.k8s.api.core.v1.ResourceQuotaSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.ClusterRoleBindingList"
+      "$ref": "handler-v1.json#/io.k8s.api.core.v1.Handler"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceAccountList"
+      "$ref": "servicereference-apiregistration-v1beta1.json#/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.ServiceReference"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.ResourceMetricSource"
+      "$ref": "daemonsetlist-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DaemonSetList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSet"
+      "$ref": "quobytevolumesource-v1.json#/io.k8s.api.core.v1.QuobyteVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.DeleteOptions"
+      "$ref": "deployment-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.Deployment"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Binding"
+      "$ref": "componentcondition-v1.json#/io.k8s.api.core.v1.ComponentCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceSpec"
+      "$ref": "replicationcontrollerspec-v1.json#/io.k8s.api.core.v1.ReplicationControllerSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.Subject"
+      "$ref": "daemonsetlist-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DaemonSetList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSet"
+      "$ref": "componentstatuslist-v1.json#/io.k8s.api.core.v1.ComponentStatusList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.policy.v1beta1.Eviction"
+      "$ref": "volumemount-v1.json#/io.k8s.api.core.v1.VolumeMount"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationControllerList"
+      "$ref": "podpresetspec-settings-v1alpha1.json#/io.k8s.api.settings.v1alpha1.PodPresetSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.SelfSubjectRulesReview"
+      "$ref": "azurediskvolumesource-v1.json#/io.k8s.api.core.v1.AzureDiskVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentList"
+      "$ref": "persistentvolumeclaimspec-v1.json#/io.k8s.api.core.v1.PersistentVolumeClaimSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentCondition"
+      "$ref": "statefulsetspec-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.StatefulSetSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationControllerSpec"
+      "$ref": "pod-v1.json#/io.k8s.api.core.v1.Pod"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetUpdateStrategy"
+      "$ref": "secretkeyselector-v1.json#/io.k8s.api.core.v1.SecretKeySelector"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSetList"
+      "$ref": "ownerreference-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.OwnerReference"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.SelfSubjectAccessReviewSpec"
+      "$ref": "serviceaccount-v1.json#/io.k8s.api.core.v1.ServiceAccount"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.RollingUpdateDeployment"
+      "$ref": "scalestatus-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.ScaleStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceStatus"
+      "$ref": "limitrangespec-v1.json#/io.k8s.api.core.v1.LimitRangeSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Event"
+      "$ref": "nonresourcerule-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.NonResourceRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ResourceQuotaSpec"
+      "$ref": "localsubjectaccessreview-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.LocalSubjectAccessReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Handler"
+      "$ref": "fcvolumesource-v1.json#/io.k8s.api.core.v1.FCVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.Deployment"
+      "$ref": "endpointaddress-v1.json#/io.k8s.api.core.v1.EndpointAddress"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.ServiceReference"
+      "$ref": "clusterrolebinding-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.ClusterRoleBinding"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetList"
+      "$ref": "servicelist-v1.json#/io.k8s.api.core.v1.ServiceList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequestList"
+      "$ref": "rollingupdatedeployment-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.RollingUpdateDeployment"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ScaleSpec"
+      "$ref": "selfsubjectaccessreview-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.SelfSubjectAccessReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.QuobyteVolumeSource"
+      "$ref": "loadbalancerstatus-v1.json#/io.k8s.api.core.v1.LoadBalancerStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.Deployment"
+      "$ref": "nodeselectorterm-v1.json#/io.k8s.api.core.v1.NodeSelectorTerm"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ComponentCondition"
+      "$ref": "jsonschemapropsorarray-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaPropsOrArray"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.PodSecurityPolicy"
+      "$ref": "selfsubjectaccessreview-authorization-v1.json#/io.k8s.api.authorization.v1.SelfSubjectAccessReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationControllerSpec"
+      "$ref": "tokenreviewspec-authentication-v1.json#/io.k8s.api.authentication.v1.TokenReviewSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetList"
+      "$ref": "cindervolumesource-v1.json#/io.k8s.api.core.v1.CinderVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ComponentStatusList"
+      "$ref": "policyrule-rbac-v1.json#/io.k8s.api.rbac.v1.PolicyRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.VolumeMount"
+      "$ref": "apiservicecondition-apiregistration-v1beta1.json#/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeCondition"
+      "$ref": "containerimage-v1.json#/io.k8s.api.core.v1.ContainerImage"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.settings.v1alpha1.PodPresetSpec"
+      "$ref": "emptydirvolumesource-v1.json#/io.k8s.api.core.v1.EmptyDirVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSetUpdateStrategy"
+      "$ref": "sessionaffinityconfig-v1.json#/io.k8s.api.core.v1.SessionAffinityConfig"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.AzureDiskVolumeSource"
+      "$ref": "jobstatus-batch-v1.json#/io.k8s.api.batch.v1.JobStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimSpec"
+      "$ref": "scalespec-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.ScaleSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetSpec"
+      "$ref": "glusterfsvolumesource-v1.json#/io.k8s.api.core.v1.GlusterfsVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicyIngressRule"
+      "$ref": "container-v1.json#/io.k8s.api.core.v1.Container"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Secret"
+      "$ref": "cronjobstatus-batch-v2alpha1.json#/io.k8s.api.batch.v2alpha1.CronJobStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Pod"
+      "$ref": "rolebindinglist-rbac-v1.json#/io.k8s.api.rbac.v1.RoleBindingList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SecretKeySelector"
+      "$ref": "priorityclasslist-scheduling-v1alpha1.json#/io.k8s.api.scheduling.v1alpha1.PriorityClassList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.OwnerReference"
+      "$ref": "statefulsetspec-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.StatefulSetSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ServiceAccount"
+      "$ref": "role-rbac-v1.json#/io.k8s.api.rbac.v1.Role"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodCondition"
+      "$ref": "podtemplate-v1.json#/io.k8s.api.core.v1.PodTemplate"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ScaleStatus"
+      "$ref": "replicasetstatus-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.ReplicaSetStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.LimitRangeSpec"
+      "$ref": "apigroup-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.APIGroup"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerState"
+      "$ref": "externaladmissionhookconfiguration-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.ExternalAdmissionHookConfiguration"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.NonResourceRule"
+      "$ref": "downwardapiprojection-v1.json#/io.k8s.api.core.v1.DownwardAPIProjection"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.LocalSubjectAccessReview"
+      "$ref": "statusdetails-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.StatusDetails"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.ExternalAdmissionHookConfigurationList"
+      "$ref": "servicespec-v1.json#/io.k8s.api.core.v1.ServiceSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.FCVolumeSource"
+      "$ref": "rolebindinglist-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.RoleBindingList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EndpointAddress"
+      "$ref": "podtemplatelist-v1.json#/io.k8s.api.core.v1.PodTemplateList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRoleBinding"
+      "$ref": "podsecuritypolicyspec-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.PodSecurityPolicySpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ServiceList"
+      "$ref": "controllerrevision-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.ControllerRevision"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.RollingUpdateDeployment"
+      "$ref": "secretvolumesource-v1.json#/io.k8s.api.core.v1.SecretVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LimitRangeList"
+      "$ref": "scalestatus-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.ScaleStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SelfSubjectAccessReview"
+      "$ref": "poddisruptionbudgetlist-policy-v1beta1.json#/io.k8s.api.policy.v1beta1.PodDisruptionBudgetList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SelfSubjectAccessReview"
+      "$ref": "nonresourceattributes-authorization-v1.json#/io.k8s.api.authorization.v1.NonResourceAttributes"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.LoadBalancerStatus"
+      "$ref": "portworxvolumesource-v1.json#/io.k8s.api.core.v1.PortworxVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Handler"
+      "$ref": "volumeprojection-v1.json#/io.k8s.api.core.v1.VolumeProjection"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.ScaleStatus"
+      "$ref": "deploymentrollback-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.DeploymentRollback"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.AttachedVolume"
+      "$ref": "daemonsetupdatestrategy-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DaemonSetUpdateStrategy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeSelectorTerm"
+      "$ref": "externaldocumentation-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.ExternalDocumentation"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSetSpec"
+      "$ref": "subject-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.Subject"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaPropsOrArray"
+      "$ref": "networkpolicyingressrule-networking-v1.json#/io.k8s.api.networking.v1.NetworkPolicyIngressRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.SelfSubjectAccessReview"
+      "$ref": "servicestatus-v1.json#/io.k8s.api.core.v1.ServiceStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authentication.v1.TokenReviewSpec"
+      "$ref": "ingressstatus-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.IngressStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1.TokenReviewStatus"
+      "$ref": "podpreset-settings-v1alpha1.json#/io.k8s.api.settings.v1alpha1.PodPreset"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.CinderVolumeSource"
+      "$ref": "limitrangeitem-v1.json#/io.k8s.api.core.v1.LimitRangeItem"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.PolicyRule"
+      "$ref": "subjectaccessreview-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.SubjectAccessReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceCondition"
+      "$ref": "daemonsetspec-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DaemonSetSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ContainerImage"
+      "$ref": "rollingupdatedaemonset-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.RollingUpdateDaemonSet"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentRollback"
+      "$ref": "namespacelist-v1.json#/io.k8s.api.core.v1.NamespaceList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.JobTemplateSpec"
+      "$ref": "gitrepovolumesource-v1.json#/io.k8s.api.core.v1.GitRepoVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EmptyDirVolumeSource"
+      "$ref": "cephfspersistentvolumesource-v1.json#/io.k8s.api.core.v1.CephFSPersistentVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SessionAffinityConfig"
+      "$ref": "endpointport-v1.json#/io.k8s.api.core.v1.EndpointPort"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1.JobStatus"
+      "$ref": "intorstring-util-intstr.json#/io.k8s.apimachinery.pkg.util.intstr.IntOrString"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SelfSubjectAccessReviewSpec"
+      "$ref": "replicasetcondition-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.ReplicaSetCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.InitializerConfiguration"
+      "$ref": "rolebinding-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.RoleBinding"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.CronJobList"
+      "$ref": "daemonset-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DaemonSet"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeDaemonEndpoints"
+      "$ref": "ingresslist-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.IngressList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ScaleSpec"
+      "$ref": "crossversionobjectreference-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.CrossVersionObjectReference"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.GlusterfsVolumeSource"
+      "$ref": "initializers-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.Initializers"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSetSpec"
+      "$ref": "node-v1.json#/io.k8s.api.core.v1.Node"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.HostAlias"
+      "$ref": "networkpolicy-networking-v1.json#/io.k8s.api.networking.v1.NetworkPolicy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Container"
+      "$ref": "resourcequota-v1.json#/io.k8s.api.core.v1.ResourceQuota"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v2alpha1.CronJobStatus"
+      "$ref": "resourcequotalist-v1.json#/io.k8s.api.core.v1.ResourceQuotaList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerStateRunning"
+      "$ref": "hostpathvolumesource-v1.json#/io.k8s.api.core.v1.HostPathVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SubjectAccessReview"
+      "$ref": "storageclass-storage-v1.json#/io.k8s.api.storage.v1.StorageClass"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.PodDisruptionBudgetStatus"
+      "$ref": "storageospersistentvolumesource-v1.json#/io.k8s.api.core.v1.StorageOSPersistentVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LocalVolumeSource"
+      "$ref": "podlist-v1.json#/io.k8s.api.core.v1.PodList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.RoleBindingList"
+      "$ref": "httpingresspath-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.HTTPIngressPath"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.scheduling.v1alpha1.PriorityClassList"
+      "$ref": "labelselector-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelector"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetSpec"
+      "$ref": "podsecuritypolicy-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.PodSecurityPolicy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.Role"
+      "$ref": "rollbackconfig-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.RollbackConfig"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationController"
+      "$ref": "rule-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.Rule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodTemplate"
+      "$ref": "tokenreviewstatus-authentication-v1.json#/io.k8s.api.authentication.v1.TokenReviewStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.RollingUpdateDeployment"
+      "$ref": "initializerconfigurationlist-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.InitializerConfigurationList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetStatus"
+      "$ref": "json-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSON"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaimSpec"
+      "$ref": "apiservice-apiregistration-v1beta1.json#/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIService"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.APIGroup"
+      "$ref": "clusterrolebinding-rbac-v1.json#/io.k8s.api.rbac.v1.ClusterRoleBinding"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ComponentCondition"
+      "$ref": "objectfieldselector-v1.json#/io.k8s.api.core.v1.ObjectFieldSelector"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.ExternalAdmissionHookConfiguration"
+      "$ref": "jsonschemaprops-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaProps"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.DownwardAPIProjection"
+      "$ref": "eventlist-v1.json#/io.k8s.api.core.v1.EventList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.StatusDetails"
+      "$ref": "networkpolicyport-networking-v1.json#/io.k8s.api.networking.v1.NetworkPolicyPort"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ServiceSpec"
+      "$ref": "rollingupdatedeployment-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.RollingUpdateDeployment"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleBindingList"
+      "$ref": "runasuserstrategyoptions-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.RunAsUserStrategyOptions"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LimitRange"
+      "$ref": "podsmetricstatus-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.PodsMetricStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSetList"
+      "$ref": "job-batch-v1.json#/io.k8s.api.batch.v1.Job"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodTemplateList"
+      "$ref": "iscsivolumesource-v1.json#/io.k8s.api.core.v1.ISCSIVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.Initializer"
+      "$ref": "replicationcontrollercondition-v1.json#/io.k8s.api.core.v1.ReplicationControllerCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.PodSecurityPolicySpec"
+      "$ref": "subjectaccessreviewspec-authorization-v1.json#/io.k8s.api.authorization.v1.SubjectAccessReviewSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.VolumeMount"
+      "$ref": "binding-v1.json#/io.k8s.api.core.v1.Binding"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.ControllerRevision"
+      "$ref": "info-pkg-version.json#/io.k8s.apimachinery.pkg.version.Info"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.ClusterRole"
+      "$ref": "userinfo-authentication-v1beta1.json#/io.k8s.api.authentication.v1beta1.UserInfo"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaimList"
+      "$ref": "objectmeta-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeStatus"
+      "$ref": "deploymentcondition-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DeploymentCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.HostPathVolumeSource"
+      "$ref": "azurefilevolumesource-v1.json#/io.k8s.api.core.v1.AzureFileVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SecretVolumeSource"
+      "$ref": "objectmetricstatus-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.ObjectMetricStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ScaleStatus"
+      "$ref": "externaladmissionhook-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.ExternalAdmissionHook"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudgetList"
+      "$ref": "flexvolumesource-v1.json#/io.k8s.api.core.v1.FlexVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.NonResourceAttributes"
+      "$ref": "horizontalpodautoscalerstatus-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PortworxVolumeSource"
+      "$ref": "deploymentstrategy-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DeploymentStrategy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentStrategy"
+      "$ref": "horizontalpodautoscalercondition-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.VolumeProjection"
+      "$ref": "subjectrulesreviewstatus-authorization-v1.json#/io.k8s.api.authorization.v1.SubjectRulesReviewStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.NonResourceAttributes"
+      "$ref": "horizontalpodautoscalerspec-autoscaling-v1.json#/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentRollback"
+      "$ref": "deploymentstatus-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DeploymentStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetUpdateStrategy"
+      "$ref": "horizontalpodautoscalerlist-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Pod"
+      "$ref": "roleref-rbac-v1.json#/io.k8s.api.rbac.v1.RoleRef"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.CephFSVolumeSource"
+      "$ref": "containerstateterminated-v1.json#/io.k8s.api.core.v1.ContainerStateTerminated"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.ExternalDocumentation"
+      "$ref": "watchevent-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.WatchEvent"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicyList"
+      "$ref": "secretenvsource-v1.json#/io.k8s.api.core.v1.SecretEnvSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.Subject"
+      "$ref": "networkpolicyspec-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.NetworkPolicySpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.RBDVolumeSource"
+      "$ref": "keytopath-v1.json#/io.k8s.api.core.v1.KeyToPath"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyIngressRule"
+      "$ref": "scalestatus-autoscaling-v1.json#/io.k8s.api.autoscaling.v1.ScaleStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSelectorTerm"
+      "$ref": "certificatesigningrequestspec-certificates-v1beta1.json#/io.k8s.api.certificates.v1beta1.CertificateSigningRequestSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ServiceStatus"
+      "$ref": "podtemplatespec-v1.json#/io.k8s.api.core.v1.PodTemplateSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressStatus"
+      "$ref": "networkpolicyport-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.NetworkPolicyPort"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.settings.v1alpha1.PodPreset"
+      "$ref": "persistentvolumeclaimlist-v1.json#/io.k8s.api.core.v1.PersistentVolumeClaimList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1.UserInfo"
+      "$ref": "certificatesigningrequestcondition-certificates-v1beta1.json#/io.k8s.api.certificates.v1beta1.CertificateSigningRequestCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.GitRepoVolumeSource"
+      "$ref": "containerport-v1.json#/io.k8s.api.core.v1.ContainerPort"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.LimitRangeItem"
+      "$ref": "subjectaccessreviewstatus-authorization-v1.json#/io.k8s.api.authorization.v1.SubjectAccessReviewStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SubjectAccessReview"
+      "$ref": "configmapprojection-v1.json#/io.k8s.api.core.v1.ConfigMapProjection"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetSpec"
+      "$ref": "statefulsetlist-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.StatefulSetList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.RollingUpdateDaemonSet"
+      "$ref": "customresourcevalidation-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceValidation"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NamespaceList"
+      "$ref": "persistentvolume-v1.json#/io.k8s.api.core.v1.PersistentVolume"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.GitRepoVolumeSource"
+      "$ref": "configmap-v1.json#/io.k8s.api.core.v1.ConfigMap"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.CephFSPersistentVolumeSource"
+      "$ref": "nonresourcerule-authorization-v1.json#/io.k8s.api.authorization.v1.NonResourceRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentCondition"
+      "$ref": "podspec-v1.json#/io.k8s.api.core.v1.PodSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EndpointPort"
+      "$ref": "objectreference-v1.json#/io.k8s.api.core.v1.ObjectReference"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.util.intstr.IntOrString"
+      "$ref": "taint-v1.json#/io.k8s.api.core.v1.Taint"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.InitializerConfigurationList"
+      "$ref": "cronjoblist-batch-v2alpha1.json#/io.k8s.api.batch.v2alpha1.CronJobList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.Ingress"
+      "$ref": "deploymentstrategy-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DeploymentStrategy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetCondition"
+      "$ref": "httpheader-v1.json#/io.k8s.api.core.v1.HTTPHeader"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.RoleList"
+      "$ref": "configmapkeyselector-v1.json#/io.k8s.api.core.v1.ConfigMapKeySelector"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleBinding"
+      "$ref": "ipblock-networking-v1.json#/io.k8s.api.networking.v1.IPBlock"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSet"
+      "$ref": "envvarsource-v1.json#/io.k8s.api.core.v1.EnvVarSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressList"
+      "$ref": "jobcondition-batch-v1.json#/io.k8s.api.batch.v1.JobCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.CrossVersionObjectReference"
+      "$ref": "jobtemplatespec-batch-v1beta1.json#/io.k8s.api.batch.v1beta1.JobTemplateSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Initializers"
+      "$ref": "nodeaffinity-v1.json#/io.k8s.api.core.v1.NodeAffinity"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Node"
+      "$ref": "statefulsetstatus-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.StatefulSetStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EmptyDirVolumeSource"
+      "$ref": "limitrangelist-v1.json#/io.k8s.api.core.v1.LimitRangeList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ScaleIOVolumeSource"
+      "$ref": "componentstatus-v1.json#/io.k8s.api.core.v1.ComponentStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.DaemonEndpoint"
+      "$ref": "networkpolicyegressrule-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.NetworkPolicyEgressRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicyIngressRule"
+      "$ref": "networkpolicylist-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.NetworkPolicyList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicy"
+      "$ref": "nodeselectorrequirement-v1.json#/io.k8s.api.core.v1.NodeSelectorRequirement"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ResourceQuota"
+      "$ref": "podsmetricsource-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.PodsMetricSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.PolicyRule"
+      "$ref": "customresourcedefinitionspec-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ResourceQuotaList"
+      "$ref": "resourcefieldselector-v1.json#/io.k8s.api.core.v1.ResourceFieldSelector"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.HostPathVolumeSource"
+      "$ref": "endpoints-v1.json#/io.k8s.api.core.v1.Endpoints"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerStatus"
+      "$ref": "deploymentlist-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.DeploymentList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1.StorageClass"
+      "$ref": "ingresstls-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.IngressTLS"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SubjectAccessReview"
+      "$ref": "subject-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.Subject"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1beta1.UserInfo"
+      "$ref": "daemonsetstatus-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DaemonSetStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.StorageOSPersistentVolumeSource"
+      "$ref": "customresourcedefinitionlist-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodList"
+      "$ref": "customresourcedefinitionnames-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionNames"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ComponentStatus"
+      "$ref": "rolebinding-rbac-v1.json#/io.k8s.api.rbac.v1.RoleBinding"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.HTTPIngressPath"
+      "$ref": "rollingupdatestatefulsetstrategy-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.RollingUpdateStatefulSetStrategy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelector"
+      "$ref": "jobtemplatespec-batch-v2alpha1.json#/io.k8s.api.batch.v2alpha1.JobTemplateSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.PodSecurityPolicy"
+      "$ref": "subjectaccessreviewspec-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.SubjectAccessReviewSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeAddress"
+      "$ref": "localvolumesource-v1.json#/io.k8s.api.core.v1.LocalVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentStatus"
+      "$ref": "awselasticblockstorevolumesource-v1.json#/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.RollbackConfig"
+      "$ref": "resourcerule-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.ResourceRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.AWSElasticBlockStoreVolumeSource"
+      "$ref": "networkpolicyegressrule-networking-v1.json#/io.k8s.api.networking.v1.NetworkPolicyEgressRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.Rule"
+      "$ref": "subjectaccessreview-authorization-v1.json#/io.k8s.api.authorization.v1.SubjectAccessReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.PodDisruptionBudget"
+      "$ref": "horizontalpodautoscalerlist-autoscaling-v1.json#/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authentication.v1.TokenReviewStatus"
+      "$ref": "nodedaemonendpoints-v1.json#/io.k8s.api.core.v1.NodeDaemonEndpoints"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.InitializerConfigurationList"
+      "$ref": "horizontalpodautoscalerspec-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSON"
+      "$ref": "resourcemetricstatus-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.ResourceMetricStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIService"
+      "$ref": "statefulsetstatus-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.StatefulSetStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.ClusterRoleBinding"
+      "$ref": "nodelist-v1.json#/io.k8s.api.core.v1.NodeList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ObjectFieldSelector"
+      "$ref": "limitrange-v1.json#/io.k8s.api.core.v1.LimitRange"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaProps"
+      "$ref": "daemonset-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DaemonSet"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EventList"
+      "$ref": "nonresourceattributes-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.NonResourceAttributes"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyPort"
+      "$ref": "supplementalgroupsstrategyoptions-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.SupplementalGroupsStrategyOptions"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.RollingUpdateDeployment"
+      "$ref": "replicasetcondition-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.ReplicaSetCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.RunAsUserStrategyOptions"
+      "$ref": "cephfsvolumesource-v1.json#/io.k8s.api.core.v1.CephFSVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Probe"
+      "$ref": "affinity-v1.json#/io.k8s.api.core.v1.Affinity"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.PodsMetricStatus"
+      "$ref": "networkpolicypeer-networking-v1.json#/io.k8s.api.networking.v1.NetworkPolicyPeer"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1.Job"
+      "$ref": "deploymentstatus-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DeploymentStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ISCSIVolumeSource"
+      "$ref": "initializerconfiguration-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.InitializerConfiguration"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationControllerCondition"
+      "$ref": "photonpersistentdiskvolumesource-v1.json#/io.k8s.api.core.v1.PhotonPersistentDiskVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequestSpec"
+      "$ref": "jobspec-batch-v1.json#/io.k8s.api.batch.v1.JobSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.SubjectAccessReviewSpec"
+      "$ref": "apiservicespec-apiregistration-v1beta1.json#/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.FCVolumeSource"
+      "$ref": "apiresourcelist-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.APIResourceList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Binding"
+      "$ref": "apiresource-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.APIResource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.version.Info"
+      "$ref": "jsonschemapropsorstringarray-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaPropsOrStringArray"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authentication.v1beta1.UserInfo"
+      "$ref": "nodesysteminfo-v1.json#/io.k8s.api.core.v1.NodeSystemInfo"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
+      "$ref": "scale-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.Scale"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentCondition"
+      "$ref": "networkpolicylist-networking-v1.json#/io.k8s.api.networking.v1.NetworkPolicyList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.AzureFileVolumeSource"
+      "$ref": "certificatesigningrequest-certificates-v1beta1.json#/io.k8s.api.certificates.v1beta1.CertificateSigningRequest"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.ObjectMetricStatus"
+      "$ref": "resourceattributes-authorization-v1.json#/io.k8s.api.authorization.v1.ResourceAttributes"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.ExternalAdmissionHook"
+      "$ref": "rollbackconfig-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.RollbackConfig"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.FlexVolumeSource"
+      "$ref": "tokenreviewspec-authentication-v1beta1.json#/io.k8s.api.authentication.v1beta1.TokenReviewSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerStatus"
+      "$ref": "clusterrolebindinglist-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.ClusterRoleBindingList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentStrategy"
+      "$ref": "scaleiovolumesource-v1.json#/io.k8s.api.core.v1.ScaleIOVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.ClusterRoleBindingList"
+      "$ref": "listmeta-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.AzureDiskVolumeSource"
+      "$ref": "networkpolicy-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.NetworkPolicy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerCondition"
+      "$ref": "deploymentstrategy-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.DeploymentStrategy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.SubjectRulesReviewStatus"
+      "$ref": "status-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.Status"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerSpec"
+      "$ref": "controllerrevisionlist-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.ControllerRevisionList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentStatus"
+      "$ref": "persistentvolumeclaimvolumesource-v1.json#/io.k8s.api.core.v1.PersistentVolumeClaimVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerList"
+      "$ref": "userinfo-authentication-v1.json#/io.k8s.api.authentication.v1.UserInfo"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.RoleRef"
+      "$ref": "resourceattributes-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.ResourceAttributes"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ContainerStateTerminated"
+      "$ref": "capabilities-v1.json#/io.k8s.api.core.v1.Capabilities"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.WatchEvent"
+      "$ref": "replicationcontrollerstatus-v1.json#/io.k8s.api.core.v1.ReplicationControllerStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicyList"
+      "$ref": "clusterrole-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.ClusterRole"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EndpointSubset"
+      "$ref": "lifecycle-v1.json#/io.k8s.api.core.v1.Lifecycle"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SecretEnvSource"
+      "$ref": "certificatesigningrequeststatus-certificates-v1beta1.json#/io.k8s.api.certificates.v1beta1.CertificateSigningRequestStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.RoleRef"
+      "$ref": "serviceaccountlist-v1.json#/io.k8s.api.core.v1.ServiceAccountList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicySpec"
+      "$ref": "containerstatewaiting-v1.json#/io.k8s.api.core.v1.ContainerStateWaiting"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.KeyToPath"
+      "$ref": "certificatesigningrequestlist-certificates-v1beta1.json#/io.k8s.api.certificates.v1beta1.CertificateSigningRequestList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.ScaleStatus"
+      "$ref": "customresourcedefinition-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceQuotaStatus"
+      "$ref": "clientipconfig-v1.json#/io.k8s.api.core.v1.ClientIPConfig"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretVolumeSource"
+      "$ref": "tokenreview-authentication-v1.json#/io.k8s.api.authentication.v1.TokenReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestSpec"
+      "$ref": "configmaplist-v1.json#/io.k8s.api.core.v1.ConfigMapList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.storage.v1beta1.StorageClassList"
+      "$ref": "clusterrole-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.ClusterRole"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodTemplateSpec"
+      "$ref": "httpingressrulevalue-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.HTTPIngressRuleValue"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyPort"
+      "$ref": "networkpolicyspec-networking-v1.json#/io.k8s.api.networking.v1.NetworkPolicySpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressStatus"
+      "$ref": "localobjectreference-v1.json#/io.k8s.api.core.v1.LocalObjectReference"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequestCondition"
+      "$ref": "rbdvolumesource-v1.json#/io.k8s.api.core.v1.RBDVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimList"
+      "$ref": "weightedpodaffinityterm-v1.json#/io.k8s.api.core.v1.WeightedPodAffinityTerm"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestCondition"
+      "$ref": "nodeaddress-v1.json#/io.k8s.api.core.v1.NodeAddress"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EndpointAddress"
+      "$ref": "customresourcedefinitionstatus-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceQuotaSpec"
+      "$ref": "poddisruptionbudget-policy-v1beta1.json#/io.k8s.api.policy.v1beta1.PodDisruptionBudget"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.QuobyteVolumeSource"
+      "$ref": "idrange-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.IDRange"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.ClusterRoleList"
+      "$ref": "metricstatus-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.MetricStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ContainerPort"
+      "$ref": "persistentvolumeclaimstatus-v1.json#/io.k8s.api.core.v1.PersistentVolumeClaimStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.SubjectAccessReviewStatus"
+      "$ref": "persistentvolumeclaimcondition-v1.json#/io.k8s.api.core.v1.PersistentVolumeClaimCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicyPort"
+      "$ref": "scalestatus-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.ScaleStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapProjection"
+      "$ref": "scale-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.Scale"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.SELinuxStrategyOptions"
+      "$ref": "jsonschemapropsorbool-apiextensions-v1beta1.json#/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaPropsOrBool"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerPort"
+      "$ref": "podsecuritycontext-v1.json#/io.k8s.api.core.v1.PodSecurityContext"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetList"
+      "$ref": "ingress-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.Ingress"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.HorizontalPodAutoscalerSpec"
+      "$ref": "containerstatus-v1.json#/io.k8s.api.core.v1.ContainerStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceValidation"
+      "$ref": "deployment-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.Deployment"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolume"
+      "$ref": "podsecuritypolicylist-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.PodSecurityPolicyList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodAffinity"
+      "$ref": "joblist-batch-v1.json#/io.k8s.api.batch.v1.JobList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SelfSubjectAccessReviewSpec"
+      "$ref": "nfsvolumesource-v1.json#/io.k8s.api.core.v1.NFSVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.LocalSubjectAccessReview"
+      "$ref": "networkpolicypeer-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.NetworkPolicyPeer"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentRollback"
+      "$ref": "toleration-v1.json#/io.k8s.api.core.v1.Toleration"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.storage.v1beta1.StorageClass"
+      "$ref": "rollingupdatedaemonset-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.RollingUpdateDaemonSet"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMap"
+      "$ref": "deploymentlist-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DeploymentList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressList"
+      "$ref": "azurefilepersistentvolumesource-v1.json#/io.k8s.api.core.v1.AzureFilePersistentVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.NonResourceRule"
+      "$ref": "loadbalanceringress-v1.json#/io.k8s.api.core.v1.LoadBalancerIngress"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.RoleBinding"
+      "$ref": "selfsubjectrulesreviewspec-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.SelfSubjectRulesReviewSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodSpec"
+      "$ref": "podantiaffinity-v1.json#/io.k8s.api.core.v1.PodAntiAffinity"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicySpec"
+      "$ref": "nodespec-v1.json#/io.k8s.api.core.v1.NodeSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ObjectReference"
+      "$ref": "rulewithoperations-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.RuleWithOperations"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Taint"
+      "$ref": "scalespec-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.ScaleSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Taint"
+      "$ref": "resourcequotastatus-v1.json#/io.k8s.api.core.v1.ResourceQuotaStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v2alpha1.CronJobList"
+      "$ref": "horizontalpodautoscaler-autoscaling-v1.json#/io.k8s.api.autoscaling.v1.HorizontalPodAutoscaler"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentStrategy"
+      "$ref": "subject-rbac-v1.json#/io.k8s.api.rbac.v1.Subject"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.HTTPHeader"
+      "$ref": "nodecondition-v1.json#/io.k8s.api.core.v1.NodeCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1.TokenReviewSpec"
+      "$ref": "apiversions-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.APIVersions"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapKeySelector"
+      "$ref": "role-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.Role"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.IPBlock"
+      "$ref": "policyrule-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.PolicyRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.CronJobSpec"
+      "$ref": "cronjoblist-batch-v1beta1.json#/io.k8s.api.batch.v1beta1.CronJobList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EnvVarSource"
+      "$ref": "secretprojection-v1.json#/io.k8s.api.core.v1.SecretProjection"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1.JobCondition"
+      "$ref": "persistentvolumespec-v1.json#/io.k8s.api.core.v1.PersistentVolumeSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1beta1.JobTemplateSpec"
+      "$ref": "configmapvolumesource-v1.json#/io.k8s.api.core.v1.ConfigMapVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.ResourceAttributes"
+      "$ref": "tokenreviewstatus-authentication-v1beta1.json#/io.k8s.api.authentication.v1beta1.TokenReviewStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeAffinity"
+      "$ref": "vspherevirtualdiskvolumesource-v1.json#/io.k8s.api.core.v1.VsphereVirtualDiskVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapVolumeSource"
+      "$ref": "replicasetlist-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.ReplicaSetList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.SupplementalGroupsStrategyOptions"
+      "$ref": "poddisruptionbudgetstatus-policy-v1beta1.json#/io.k8s.api.policy.v1beta1.PodDisruptionBudgetStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
+      "$ref": "allowedhostpath-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.AllowedHostPath"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetStatus"
+      "$ref": "hostportrange-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.HostPortRange"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.LimitRangeList"
+      "$ref": "containerstate-v1.json#/io.k8s.api.core.v1.ContainerState"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.RunAsUserStrategyOptions"
+      "$ref": "deploymentspec-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DeploymentSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.Job"
+      "$ref": "downwardapivolumesource-v1.json#/io.k8s.api.core.v1.DownwardAPIVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ComponentStatus"
+      "$ref": "statuscause-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.StatusCause"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationControllerStatus"
+      "$ref": "labelselectorrequirement-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelectorRequirement"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationControllerCondition"
+      "$ref": "statefulsetlist-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.StatefulSetList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequest"
+      "$ref": "rollingupdatestatefulsetstrategy-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.RollingUpdateStatefulSetStrategy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyEgressRule"
+      "$ref": "metricspec-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.MetricSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.LocalSubjectAccessReview"
+      "$ref": "rolelist-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.RoleList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SubjectAccessReviewSpec"
+      "$ref": "cronjobspec-batch-v2alpha1.json#/io.k8s.api.batch.v2alpha1.CronJobSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.Scale"
+      "$ref": "policyrule-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.PolicyRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyList"
+      "$ref": "projectedvolumesource-v1.json#/io.k8s.api.core.v1.ProjectedVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeSelectorRequirement"
+      "$ref": "clusterrolelist-rbac-v1.json#/io.k8s.api.rbac.v1.ClusterRoleList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.PodsMetricSource"
+      "$ref": "storageclasslist-storage-v1beta1.json#/io.k8s.api.storage.v1beta1.StorageClassList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionSpec"
+      "$ref": "servicereference-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.ServiceReference"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ResourceFieldSelector"
+      "$ref": "roleref-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.RoleRef"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SelfSubjectAccessReview"
+      "$ref": "selfsubjectrulesreviewspec-authorization-v1.json#/io.k8s.api.authorization.v1.SelfSubjectRulesReviewSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Endpoints"
+      "$ref": "secretlist-v1.json#/io.k8s.api.core.v1.SecretList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EventList"
+      "$ref": "controllerrevision-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.ControllerRevision"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentList"
+      "$ref": "podaffinity-v1.json#/io.k8s.api.core.v1.PodAffinity"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.ScaleSpec"
+      "$ref": "objectmetricsource-autoscaling-v2beta1.json#/io.k8s.api.autoscaling.v2beta1.ObjectMetricSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressTLS"
+      "$ref": "service-v1.json#/io.k8s.api.core.v1.Service"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.Subject"
+      "$ref": "storageclass-storage-v1beta1.json#/io.k8s.api.storage.v1beta1.StorageClass"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetStatus"
+      "$ref": "volume-v1.json#/io.k8s.api.core.v1.Volume"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionList"
+      "$ref": "priorityclass-scheduling-v1alpha1.json#/io.k8s.api.scheduling.v1alpha1.PriorityClass"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionNames"
+      "$ref": "clusterrolelist-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.ClusterRoleList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.RoleBinding"
+      "$ref": "replicasetlist-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.ReplicaSetList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.RollingUpdateStatefulSetStrategy"
+      "$ref": "patch-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.Patch"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v2alpha1.JobTemplateSpec"
+      "$ref": "nodeconfigsource-v1.json#/io.k8s.api.core.v1.NodeConfigSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SubjectAccessReviewSpec"
+      "$ref": "endpointsubset-v1.json#/io.k8s.api.core.v1.EndpointSubset"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.LocalVolumeSource"
+      "$ref": "selinuxstrategyoptions-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.SELinuxStrategyOptions"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSpec"
+      "$ref": "time-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource"
+      "$ref": "ipblock-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.IPBlock"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.ResourceRule"
+      "$ref": "roleref-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.RoleRef"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyEgressRule"
+      "$ref": "rawextension-pkg-runtime.json#/io.k8s.apimachinery.pkg.runtime.RawExtension"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.SubjectAccessReview"
+      "$ref": "deploymentstatus-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.DeploymentStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PreferredSchedulingTerm"
+      "$ref": "rolebindinglist-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.RoleBindingList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressRule"
+      "$ref": "cronjobstatus-batch-v1beta1.json#/io.k8s.api.batch.v1beta1.CronJobStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerList"
+      "$ref": "hostalias-v1.json#/io.k8s.api.core.v1.HostAlias"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.GlusterfsVolumeSource"
+      "$ref": "ingressspec-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.IngressSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeDaemonEndpoints"
+      "$ref": "gcepersistentdiskvolumesource-v1.json#/io.k8s.api.core.v1.GCEPersistentDiskVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerSpec"
+      "$ref": "clusterrolebinding-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.ClusterRoleBinding"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EndpointPort"
+      "$ref": "clusterrole-rbac-v1.json#/io.k8s.api.rbac.v1.ClusterRole"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSetUpdateStrategy"
+      "$ref": "containerstaterunning-v1.json#/io.k8s.api.core.v1.ContainerStateRunning"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.ResourceMetricStatus"
+      "$ref": "crossversionobjectreference-autoscaling-v1.json#/io.k8s.api.autoscaling.v1.CrossVersionObjectReference"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.Deployment"
+      "$ref": "ingressbackend-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.IngressBackend"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetStatus"
+      "$ref": "clusterrolelist-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.ClusterRoleList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeList"
+      "$ref": "secret-v1.json#/io.k8s.api.core.v1.Secret"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.LimitRange"
+      "$ref": "replicasetstatus-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.ReplicaSetStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSet"
+      "$ref": "replicasetspec-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.ReplicaSetSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.RollbackConfig"
+      "$ref": "tokenreview-authentication-v1beta1.json#/io.k8s.api.authentication.v1beta1.TokenReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.NonResourceAttributes"
+      "$ref": "deploymentrollback-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.DeploymentRollback"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.SupplementalGroupsStrategyOptions"
+      "$ref": "serviceport-v1.json#/io.k8s.api.core.v1.ServicePort"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetCondition"
+      "$ref": "nodeselector-v1.json#/io.k8s.api.core.v1.NodeSelector"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.PodSecurityPolicyList"
+      "$ref": "cronjobspec-batch-v1beta1.json#/io.k8s.api.batch.v1beta1.CronJobSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1beta1.TokenReview"
+      "$ref": "deploymentspec-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.DeploymentSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.CephFSVolumeSource"
+      "$ref": "podcondition-v1.json#/io.k8s.api.core.v1.PodCondition"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Affinity"
+      "$ref": "downwardapivolumefile-v1.json#/io.k8s.api.core.v1.DownwardAPIVolumeFile"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.storage.v1.StorageClassList"
+      "$ref": "rolebinding-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.RoleBinding"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerStateWaiting"
+      "$ref": "eventsource-v1.json#/io.k8s.api.core.v1.EventSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyPeer"
+      "$ref": "daemonsetstatus-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DaemonSetStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapProjection"
+      "$ref": "resourcerequirements-v1.json#/io.k8s.api.core.v1.ResourceRequirements"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.DownwardAPIProjection"
+      "$ref": "namespacestatus-v1.json#/io.k8s.api.core.v1.NamespaceStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentStatus"
+      "$ref": "rolelist-rbac-v1alpha1.json#/io.k8s.api.rbac.v1alpha1.RoleList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.PolicyRule"
+      "$ref": "selinuxoptions-v1.json#/io.k8s.api.core.v1.SELinuxOptions"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.InitializerConfiguration"
+      "$ref": "subjectrulesreviewstatus-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.SubjectRulesReviewStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PhotonPersistentDiskVolumeSource"
+      "$ref": "horizontalpodautoscalerstatus-autoscaling-v1.json#/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.HorizontalPodAutoscaler"
+      "$ref": "replicationcontroller-v1.json#/io.k8s.api.core.v1.ReplicationController"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1.JobSpec"
+      "$ref": "localsubjectaccessreview-authorization-v1.json#/io.k8s.api.authorization.v1.LocalSubjectAccessReview"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceSpec"
+      "$ref": "resourcerule-authorization-v1.json#/io.k8s.api.authorization.v1.ResourceRule"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.APIResourceList"
+      "$ref": "preconditions-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.Preconditions"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.APIResource"
+      "$ref": "storageosvolumesource-v1.json#/io.k8s.api.core.v1.StorageOSVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaPropsOrStringArray"
+      "$ref": "groupversionfordiscovery-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.GroupVersionForDiscovery"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicyPort"
+      "$ref": "clusterrolebindinglist-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.ClusterRoleBindingList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationControllerList"
+      "$ref": "persistentvolumeclaim-v1.json#/io.k8s.api.core.v1.PersistentVolumeClaim"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.RoleBinding"
+      "$ref": "storageclasslist-storage-v1.json#/io.k8s.api.storage.v1.StorageClassList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeSystemInfo"
+      "$ref": "attachedvolume-v1.json#/io.k8s.api.core.v1.AttachedVolume"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.Role"
+      "$ref": "selfsubjectaccessreviewspec-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.SelfSubjectAccessReviewSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Lifecycle"
+      "$ref": "probe-v1.json#/io.k8s.api.core.v1.Probe"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.Scale"
+      "$ref": "fsgroupstrategyoptions-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.FSGroupStrategyOptions"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyList"
+      "$ref": "daemonendpoint-v1.json#/io.k8s.api.core.v1.DaemonEndpoint"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequest"
+      "$ref": "scale-autoscaling-v1.json#/io.k8s.api.autoscaling.v1.Scale"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.ResourceAttributes"
+      "$ref": "admissionhookclientconfig-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.AdmissionHookClientConfig"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.ScaleSpec"
+      "$ref": "podpresetlist-settings-v1alpha1.json#/io.k8s.api.settings.v1alpha1.PodPresetList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSet"
+      "$ref": "apigrouplist-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.APIGroupList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.RollbackConfig"
+      "$ref": "statefulset-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.StatefulSet"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authentication.v1beta1.TokenReviewSpec"
+      "$ref": "namespacespec-v1.json#/io.k8s.api.core.v1.NamespaceSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.Subject"
+      "$ref": "flockervolumesource-v1.json#/io.k8s.api.core.v1.FlockerVolumeSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRoleBindingList"
+      "$ref": "envfromsource-v1.json#/io.k8s.api.core.v1.EnvFromSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ScaleIOVolumeSource"
+      "$ref": "secretreference-v1.json#/io.k8s.api.core.v1.SecretReference"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.PodDisruptionBudgetSpec"
+      "$ref": "cronjob-batch-v2alpha1.json#/io.k8s.api.batch.v2alpha1.CronJob"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NFSVolumeSource"
+      "$ref": "scalespec-apps-v1beta1.json#/io.k8s.api.apps.v1beta1.ScaleSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta"
+      "$ref": "poddisruptionbudgetspec-policy-v1beta1.json#/io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.StorageOSPersistentVolumeSource"
+      "$ref": "deploymentspec-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DeploymentSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSetList"
+      "$ref": "cronjob-batch-v1beta1.json#/io.k8s.api.batch.v1beta1.CronJob"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicy"
+      "$ref": "replicaset-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.ReplicaSet"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretKeySelector"
+      "$ref": "namespace-v1.json#/io.k8s.api.core.v1.Namespace"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NamespaceSpec"
+      "$ref": "daemonsetupdatestrategy-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.DaemonSetUpdateStrategy"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentStrategy"
+      "$ref": "replicasetspec-extensions-v1beta1.json#/io.k8s.api.extensions.v1beta1.ReplicaSetSpec"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.RoleBindingList"
+      "$ref": "endpointslist-v1.json#/io.k8s.api.core.v1.EndpointsList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.CronJob"
+      "$ref": "configmapenvsource-v1.json#/io.k8s.api.core.v1.ConfigMapEnvSource"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Status"
+      "$ref": "rolelist-rbac-v1.json#/io.k8s.api.rbac.v1.RoleList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.ControllerRevisionList"
+      "$ref": "securitycontext-v1.json#/io.k8s.api.core.v1.SecurityContext"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.VolumeProjection"
+      "$ref": "execaction-v1.json#/io.k8s.api.core.v1.ExecAction"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimVolumeSource"
+      "$ref": "replicaset-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.ReplicaSet"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.Eviction"
+      "$ref": "apiservicelist-apiregistration-v1beta1.json#/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceList"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authentication.v1.UserInfo"
+      "$ref": "role-rbac-v1beta1.json#/io.k8s.api.rbac.v1beta1.Role"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.ResourceAttributes"
+      "$ref": "persistentvolumestatus-v1.json#/io.k8s.api.core.v1.PersistentVolumeStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Capabilities"
+      "$ref": "podaffinityterm-v1.json#/io.k8s.api.core.v1.PodAffinityTerm"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationControllerStatus"
+      "$ref": "subjectaccessreviewstatus-authorization-v1beta1.json#/io.k8s.api.authorization.v1beta1.SubjectAccessReviewStatus"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.TCPSocketAction"
+      "$ref": "initializer-meta-v1.json#/io.k8s.apimachinery.pkg.apis.meta.v1.Initializer"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRole"
+      "$ref": "initializer-admissionregistration-v1alpha1.json#/io.k8s.api.admissionregistration.v1alpha1.Initializer"
     }, 
     {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressBackend"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Toleration"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NamespaceList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.ResourceAttributes"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LocalObjectReference"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EnvFromSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.PodDisruptionBudgetList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Lifecycle"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ServiceAccountList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequestStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Service"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ContainerStateWaiting"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinition"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressTLS"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ClientIPConfig"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authentication.v1.TokenReview"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PortworxVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRole"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.HTTPIngressRuleValue"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicySpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SubjectAccessReviewSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.LocalObjectReference"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.RBDVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaim"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.WeightedPodAffinityTerm"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretEnvSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeAddress"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudget"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IDRange"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.MetricStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.RollingUpdateDeployment"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Affinity"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimCondition"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.ScaleStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.ClusterRoleBinding"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.Scale"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaPropsOrBool"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.AzureFileVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.DownwardAPIVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodSecurityContext"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.Ingress"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ContainerStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.VsphereVirtualDiskVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceFieldSelector"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.Deployment"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.PodSecurityPolicyList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1.JobList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NFSVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyPeer"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Toleration"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.RollingUpdateDaemonSet"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ObjectFieldSelector"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecurityContext"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMap"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1beta1.TokenReviewSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Capabilities"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.AzureFilePersistentVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.LoadBalancerIngress"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.HostPortRange"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SelfSubjectRulesReviewSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LimitRangeItem"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodAntiAffinity"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.HTTPHeader"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.RuleWithOperations"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ScaleSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ResourceQuotaStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscaler"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.HTTPGetAction"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.Subject"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeCondition"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.APIVersions"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.CrossVersionObjectReference"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.CinderVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.ControllerRevisionList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.Role"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodTemplateList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.PolicyRule"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EndpointsList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1beta1.CronJobList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SecretProjection"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.Scale"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSetSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authentication.v1beta1.TokenReviewStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ExecAction"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ObjectReference"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.VsphereVirtualDiskVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudgetStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.AllowedHostPath"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.HostPortRange"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ContainerState"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaimVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicy"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.DownwardAPIVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.StatusCause"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelectorRequirement"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1beta1.TokenReviewStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Container"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.RollingUpdateStatefulSetStrategy"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.MetricSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.JobCondition"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.RoleList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Node"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSelectorRequirement"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LoadBalancerIngress"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerImage"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.ControllerRevision"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.HorizontalPodAutoscalerStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSelector"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v2alpha1.CronJobSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.PolicyRule"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ProjectedVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.ClusterRoleList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.RollingUpdateStatefulSetStrategy"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1beta1.StorageClassList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.ServiceReference"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.RoleRef"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.storage.v1.StorageClass"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.SelfSubjectRulesReviewSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSetStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SecretList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ControllerRevision"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.FlockerVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.RollingUpdateDaemonSet"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodAffinityTerm"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicySpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PhotonPersistentDiskVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.settings.v1alpha1.PodPreset"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodAffinity"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.ObjectMetricSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Service"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1beta1.StorageClass"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Volume"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.scheduling.v1alpha1.PriorityClass"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRoleList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.ClusterRoleBindingList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Volume"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapKeySelector"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Patch"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeConfigSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.AdmissionHookClientConfig"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EndpointSubset"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.SELinuxStrategyOptions"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IPBlock"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleRef"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.HTTPIngressPath"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.runtime.RawExtension"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.RoleBindingList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1beta1.CronJobStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.HostAlias"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.GCEPersistentDiskVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ISCSIVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.ScaleStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRoleBinding"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSystemInfo"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.KeyToPath"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.JobStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.ClusterRole"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSetCondition"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.GCEPersistentDiskVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceAccount"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ContainerStateRunning"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.CrossVersionObjectReference"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.ClusterRoleList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SubjectAccessReviewStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.HorizontalPodAutoscalerList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressBackend"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRoleList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Secret"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServicePort"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authentication.v1beta1.TokenReview"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentRollback"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.RuleWithOperations"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ServicePort"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeSelector"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1beta1.CronJobSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.RoleRef"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicy"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodCondition"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapEnvSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.settings.v1alpha1.PodPresetSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.ExternalAdmissionHook"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerStateTerminated"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.DownwardAPIVolumeFile"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.ServiceReference"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.RoleBindingList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.RoleBinding"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EventSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.settings.v1alpha1.PodPresetList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSetStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ResourceRequirements"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NamespaceStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SELinuxOptions"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ScaleStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LoadBalancerStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SubjectRulesReviewStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.PodSecurityPolicySpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Namespace"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Event"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationController"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.LocalSubjectAccessReview"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentCondition"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceQuotaList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LimitRangeSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.FlexVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.DownwardAPIVolumeFile"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.ResourceRule"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.ClusterRoleBinding"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.Rule"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.ExternalAdmissionHookConfiguration"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Preconditions"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.StorageOSVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.GroupVersionForDiscovery"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSetStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRoleBindingList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaim"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.JobList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1.StorageClassList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.AttachedVolume"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SelfSubjectAccessReviewSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Probe"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1.TokenReview"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretProjection"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaimStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.FSGroupStrategyOptions"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.DaemonEndpoint"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Endpoints"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.Scale"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.Scale"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.StorageOSVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.AdmissionHookClientConfig"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.settings.v1alpha1.PodPresetList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IDRange"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.APIGroupList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSet"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicyPeer"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.JobSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NamespaceSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.FlockerVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceQuota"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EnvFromSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.RollbackConfig"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.RoleList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.Role"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ProjectedVolumeSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SecretReference"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v2alpha1.CronJob"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta1.ScaleSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.ClusterRole"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentStrategy"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1beta1.CronJob"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicyPeer"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeAffinity"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSet"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Namespace"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetUpdateStrategy"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EndpointsList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapEnvSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1.RoleList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodTemplate"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SecurityContext"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ExecAction"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSet"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SubjectAccessReviewStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodTemplateSpec"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.Role"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodAffinityTerm"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SubjectAccessReviewStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Initializer"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.Initializer"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ControllerRevisionList"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NamespaceStatus"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodAntiAffinity"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EnvVarSource"
-    }, 
-    {
-      "$ref": "_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.HTTPIngressRuleValue"
+      "$ref": "controllerrevisionlist-apps-v1beta2.json#/io.k8s.api.apps.v1beta2.ControllerRevisionList"
     }
   ]
 }

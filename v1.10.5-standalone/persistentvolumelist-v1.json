@@ -1,4 +1,5 @@
 {
+  "description": "PersistentVolumeList is a list of PersistentVolume items.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": ""
     }
   ], 
-  "description": "PersistentVolumeList is a list of PersistentVolume items.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

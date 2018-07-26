@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "PersistentVolumeClaimList is a list of PersistentVolumeClaim items.", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": ""
     }
   ], 
-  "description": "PersistentVolumeClaimList is a list of PersistentVolumeClaim items.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

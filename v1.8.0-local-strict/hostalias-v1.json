@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.core.v1.HostAlias instead.", 
+  "description": "HostAlias holds the mapping between IP and hostnames that will be injected as an entry in the pod's hosts file.", 
   "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.HostAlias"
 }

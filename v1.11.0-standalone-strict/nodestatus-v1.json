@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "NodeStatus is information about the current status of a node.", 
   "properties": {
     "capacity": {
@@ -38,44 +40,13 @@
           }
         }
       }, 
-      "x-kubernetes-patch-merge-key": "type", 
       "type": [
         "array", 
         "null"
       ], 
       "description": "List of addresses reachable to the node. Queried from cloud provider, if available. More info: https://kubernetes.io/docs/concepts/nodes/node/#addresses", 
-      "x-kubernetes-patch-strategy": "merge"
-    }, 
-    "images": {
-      "items": {
-        "additionalProperties": false, 
-        "required": [
-          "names"
-        ], 
-        "description": "Describe a container image", 
-        "properties": {
-          "sizeBytes": {
-            "type": "integer", 
-            "description": "The size of the image in bytes.", 
-            "format": "int64"
-          }, 
-          "names": {
-            "items": {
-              "type": [
-                "string", 
-                "null"
-              ]
-            }, 
-            "type": "array", 
-            "description": "Names by which this image is known. e.g. [\"k8s.gcr.io/hyperkube:v1.0.7\", \"dockerhub.io/google_containers/hyperkube:v1.0.7\"]"
-          }
-        }
-      }, 
-      "type": [
-        "array", 
-        "null"
-      ], 
-      "description": "List of container images on this node"
+      "x-kubernetes-patch-strategy": "merge", 
+      "x-kubernetes-patch-merge-key": "type"
     }, 
     "nodeInfo": {
       "additionalProperties": false, 
@@ -134,6 +105,176 @@
           "description": "The Operating System reported by the node"
         }
       }
+    }, 
+    "conditions": {
+      "items": {
+        "additionalProperties": false, 
+        "required": [
+          "type", 
+          "status"
+        ], 
+        "description": "NodeCondition contains condition information for a node.", 
+        "properties": {
+          "status": {
+            "type": "string", 
+            "description": "Status of the condition, one of True, False, Unknown."
+          }, 
+          "lastTransitionTime": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
+            "format": "date-time"
+          }, 
+          "lastHeartbeatTime": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
+            "format": "date-time"
+          }, 
+          "reason": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "(brief) reason for the condition's last transition."
+          }, 
+          "message": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "Human readable message indicating details about last transition."
+          }, 
+          "type": {
+            "type": "string", 
+            "description": "Type of node condition."
+          }
+        }
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "Conditions is an array of current observed node conditions. More info: https://kubernetes.io/docs/concepts/nodes/node/#condition", 
+      "x-kubernetes-patch-strategy": "merge", 
+      "x-kubernetes-patch-merge-key": "type"
+    }, 
+    "volumesAttached": {
+      "items": {
+        "additionalProperties": false, 
+        "required": [
+          "name", 
+          "devicePath"
+        ], 
+        "description": "AttachedVolume describes a volume attached to a node", 
+        "properties": {
+          "devicePath": {
+            "type": "string", 
+            "description": "DevicePath represents the device path where the volume should be available"
+          }, 
+          "name": {
+            "type": "string", 
+            "description": "Name of the attached volume"
+          }
+        }
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "List of volumes that are attached to the node."
+    }, 
+    "allocatable": {
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": [
+              "string", 
+              "null"
+            ]
+          }, 
+          {
+            "type": "integer"
+          }
+        ]
+      }, 
+      "type": "object", 
+      "description": "Allocatable represents the resources of a node that are available for scheduling. Defaults to Capacity."
+    }, 
+    "volumesInUse": {
+      "items": {
+        "type": [
+          "string", 
+          "null"
+        ]
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "List of attachable volumes in use (mounted) by the node."
+    }, 
+    "daemonEndpoints": {
+      "additionalProperties": false, 
+      "description": "NodeDaemonEndpoints lists ports opened by daemons running on the Node.", 
+      "properties": {
+        "kubeletEndpoint": {
+          "additionalProperties": false, 
+          "required": [
+            "Port"
+          ], 
+          "description": "DaemonEndpoint contains information about a single Daemon endpoint.", 
+          "properties": {
+            "Port": {
+              "type": "integer", 
+              "description": "Port number of the given endpoint.", 
+              "format": "int32"
+            }
+          }
+        }
+      }
+    }, 
+    "phase": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "NodePhase is the recently observed lifecycle phase of the node. More info: https://kubernetes.io/docs/concepts/nodes/node/#phase The field is never populated, and now is deprecated."
+    }, 
+    "images": {
+      "items": {
+        "additionalProperties": false, 
+        "required": [
+          "names"
+        ], 
+        "description": "Describe a container image", 
+        "properties": {
+          "sizeBytes": {
+            "type": "integer", 
+            "description": "The size of the image in bytes.", 
+            "format": "int64"
+          }, 
+          "names": {
+            "items": {
+              "type": [
+                "string", 
+                "null"
+              ]
+            }, 
+            "type": "array", 
+            "description": "Names by which this image is known. e.g. [\"k8s.gcr.io/hyperkube:v1.0.7\", \"dockerhub.io/google_containers/hyperkube:v1.0.7\"]"
+          }
+        }
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "List of container images on this node"
     }, 
     "config": {
       "additionalProperties": false, 
@@ -276,145 +417,6 @@
           }
         }
       }
-    }, 
-    "volumesAttached": {
-      "items": {
-        "additionalProperties": false, 
-        "required": [
-          "name", 
-          "devicePath"
-        ], 
-        "description": "AttachedVolume describes a volume attached to a node", 
-        "properties": {
-          "devicePath": {
-            "type": "string", 
-            "description": "DevicePath represents the device path where the volume should be available"
-          }, 
-          "name": {
-            "type": "string", 
-            "description": "Name of the attached volume"
-          }
-        }
-      }, 
-      "type": [
-        "array", 
-        "null"
-      ], 
-      "description": "List of volumes that are attached to the node."
-    }, 
-    "allocatable": {
-      "additionalProperties": {
-        "oneOf": [
-          {
-            "type": [
-              "string", 
-              "null"
-            ]
-          }, 
-          {
-            "type": "integer"
-          }
-        ]
-      }, 
-      "type": "object", 
-      "description": "Allocatable represents the resources of a node that are available for scheduling. Defaults to Capacity."
-    }, 
-    "volumesInUse": {
-      "items": {
-        "type": [
-          "string", 
-          "null"
-        ]
-      }, 
-      "type": [
-        "array", 
-        "null"
-      ], 
-      "description": "List of attachable volumes in use (mounted) by the node."
-    }, 
-    "daemonEndpoints": {
-      "additionalProperties": false, 
-      "description": "NodeDaemonEndpoints lists ports opened by daemons running on the Node.", 
-      "properties": {
-        "kubeletEndpoint": {
-          "additionalProperties": false, 
-          "required": [
-            "Port"
-          ], 
-          "description": "DaemonEndpoint contains information about a single Daemon endpoint.", 
-          "properties": {
-            "Port": {
-              "type": "integer", 
-              "description": "Port number of the given endpoint.", 
-              "format": "int32"
-            }
-          }
-        }
-      }
-    }, 
-    "phase": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "NodePhase is the recently observed lifecycle phase of the node. More info: https://kubernetes.io/docs/concepts/nodes/node/#phase The field is never populated, and now is deprecated."
-    }, 
-    "conditions": {
-      "items": {
-        "additionalProperties": false, 
-        "required": [
-          "type", 
-          "status"
-        ], 
-        "description": "NodeCondition contains condition information for a node.", 
-        "properties": {
-          "status": {
-            "type": "string", 
-            "description": "Status of the condition, one of True, False, Unknown."
-          }, 
-          "lastTransitionTime": {
-            "type": [
-              "string", 
-              "null"
-            ], 
-            "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
-            "format": "date-time"
-          }, 
-          "lastHeartbeatTime": {
-            "type": [
-              "string", 
-              "null"
-            ], 
-            "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
-            "format": "date-time"
-          }, 
-          "reason": {
-            "type": [
-              "string", 
-              "null"
-            ], 
-            "description": "(brief) reason for the condition's last transition."
-          }, 
-          "message": {
-            "type": [
-              "string", 
-              "null"
-            ], 
-            "description": "Human readable message indicating details about last transition."
-          }, 
-          "type": {
-            "type": "string", 
-            "description": "Type of node condition."
-          }
-        }
-      }, 
-      "x-kubernetes-patch-merge-key": "type", 
-      "type": [
-        "array", 
-        "null"
-      ], 
-      "description": "Conditions is an array of current observed node conditions. More info: https://kubernetes.io/docs/concepts/nodes/node/#condition", 
-      "x-kubernetes-patch-strategy": "merge"
     }
   }
 }

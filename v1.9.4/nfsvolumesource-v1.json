@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.core.v1.NFSVolumeSource instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.9.4/_definitions.json#/definitions/io.k8s.api.core.v1.NFSVolumeSource"
+  "description": "Represents an NFS mount that lasts the lifetime of a pod. NFS volumes do not support ownership management or SELinux relabeling.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NFSVolumeSource"
 }

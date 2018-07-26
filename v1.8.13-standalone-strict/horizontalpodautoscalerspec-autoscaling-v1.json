@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "specification of a horizontal pod autoscaler.", 
   "required": [
     "scaleTargetRef", 
     "maxReplicas"
   ], 
-  "description": "specification of a horizontal pod autoscaler.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "minReplicas": {
       "type": "integer", 

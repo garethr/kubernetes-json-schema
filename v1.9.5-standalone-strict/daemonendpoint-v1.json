@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "DaemonEndpoint contains information about a single Daemon endpoint.", 
   "required": [
     "Port"
   ], 
-  "description": "DaemonEndpoint contains information about a single Daemon endpoint.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "Port": {
       "type": "integer", 

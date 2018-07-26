@@ -1,8 +1,10 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "podSelector"
   ], 
+  "type": "object", 
   "properties": {
     "policyTypes": {
       "items": {

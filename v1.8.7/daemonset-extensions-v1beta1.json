@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.extensions.v1beta1.DaemonSet instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.7/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSet"
+  "description": "DEPRECATED - This group version of DaemonSet is deprecated by apps/v1beta2/DaemonSet. See the release notes for more information. DaemonSet represents the configuration of a daemon set.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSet"
 }

@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.", 
   "properties": {
     "httpGet": {

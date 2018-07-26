@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "ExecAction describes a \"run in container\" action.", 
   "properties": {
     "command": {

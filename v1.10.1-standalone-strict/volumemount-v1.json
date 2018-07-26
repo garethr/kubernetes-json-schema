@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "VolumeMount describes a mounting of a Volume within a container.", 
   "required": [
     "name", 
     "mountPath"
   ], 
-  "description": "VolumeMount describes a mounting of a Volume within a container.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "readOnly": {
       "type": "boolean", 

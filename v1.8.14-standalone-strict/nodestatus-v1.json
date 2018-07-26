@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "NodeStatus is information about the current status of a node.", 
   "properties": {
     "capacity": {
@@ -38,44 +40,13 @@
           }
         }
       }, 
-      "x-kubernetes-patch-merge-key": "type", 
       "type": [
         "array", 
         "null"
       ], 
       "description": "List of addresses reachable to the node. Queried from cloud provider, if available. More info: https://kubernetes.io/docs/concepts/nodes/node/#addresses", 
-      "x-kubernetes-patch-strategy": "merge"
-    }, 
-    "images": {
-      "items": {
-        "additionalProperties": false, 
-        "required": [
-          "names"
-        ], 
-        "description": "Describe a container image", 
-        "properties": {
-          "sizeBytes": {
-            "type": "integer", 
-            "description": "The size of the image in bytes.", 
-            "format": "int64"
-          }, 
-          "names": {
-            "items": {
-              "type": [
-                "string", 
-                "null"
-              ]
-            }, 
-            "type": "array", 
-            "description": "Names by which this image is known. e.g. [\"gcr.io/google_containers/hyperkube:v1.0.7\", \"dockerhub.io/google_containers/hyperkube:v1.0.7\"]"
-          }
-        }
-      }, 
-      "type": [
-        "array", 
-        "null"
-      ], 
-      "description": "List of container images on this node"
+      "x-kubernetes-patch-strategy": "merge", 
+      "x-kubernetes-patch-merge-key": "type"
     }, 
     "nodeInfo": {
       "additionalProperties": false, 
@@ -217,6 +188,37 @@
       ], 
       "description": "NodePhase is the recently observed lifecycle phase of the node. More info: https://kubernetes.io/docs/concepts/nodes/node/#phase The field is never populated, and now is deprecated."
     }, 
+    "images": {
+      "items": {
+        "additionalProperties": false, 
+        "required": [
+          "names"
+        ], 
+        "description": "Describe a container image", 
+        "properties": {
+          "sizeBytes": {
+            "type": "integer", 
+            "description": "The size of the image in bytes.", 
+            "format": "int64"
+          }, 
+          "names": {
+            "items": {
+              "type": [
+                "string", 
+                "null"
+              ]
+            }, 
+            "type": "array", 
+            "description": "Names by which this image is known. e.g. [\"gcr.io/google_containers/hyperkube:v1.0.7\", \"dockerhub.io/google_containers/hyperkube:v1.0.7\"]"
+          }
+        }
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "List of container images on this node"
+    }, 
     "conditions": {
       "items": {
         "additionalProperties": false, 
@@ -264,13 +266,13 @@
           }
         }
       }, 
-      "x-kubernetes-patch-merge-key": "type", 
       "type": [
         "array", 
         "null"
       ], 
       "description": "Conditions is an array of current observed node conditions. More info: https://kubernetes.io/docs/concepts/nodes/node/#condition", 
-      "x-kubernetes-patch-strategy": "merge"
+      "x-kubernetes-patch-strategy": "merge", 
+      "x-kubernetes-patch-merge-key": "type"
     }
   }
 }

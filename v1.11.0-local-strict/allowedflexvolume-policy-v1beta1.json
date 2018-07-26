@@ -1,18 +1,6 @@
 {
-  "description": "AllowedFlexVolume represents a single Flexvolume that is allowed to be used.", 
-  "required": [
-    "driver"
-  ], 
-  "additionalProperties": false, 
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "properties": {
-    "driver": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "driver is the name of the Flexvolume driver."
-    }
-  }
+  "description": "AllowedFlexVolume represents a single Flexvolume that is allowed to be used.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.policy.v1beta1.AllowedFlexVolume"
 }

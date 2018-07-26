@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "Represents a vSphere volume resource.", 
   "required": [
     "volumePath"
   ], 
-  "description": "Represents a vSphere volume resource.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "storagePolicyName": {
       "type": [
@@ -12,12 +14,12 @@
       ], 
       "description": "Storage Policy Based Management (SPBM) profile name."
     }, 
-    "fsType": {
+    "volumePath": {
       "type": [
         "string", 
         "null"
       ], 
-      "description": "Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. \"ext4\", \"xfs\", \"ntfs\". Implicitly inferred to be \"ext4\" if unspecified."
+      "description": "Path that identifies vSphere volume vmdk"
     }, 
     "storagePolicyID": {
       "type": [
@@ -26,12 +28,12 @@
       ], 
       "description": "Storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName."
     }, 
-    "volumePath": {
+    "fsType": {
       "type": [
         "string", 
         "null"
       ], 
-      "description": "Path that identifies vSphere volume vmdk"
+      "description": "Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. \"ext4\", \"xfs\", \"ntfs\". Implicitly inferred to be \"ext4\" if unspecified."
     }
   }
 }

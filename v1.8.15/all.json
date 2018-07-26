@@ -1,9 +1,6 @@
 {
   "oneOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.NonResourceAttributes"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetUpdateStrategy"
     }, 
     {
@@ -31,28 +28,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.TCPSocketAction"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EventSource"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinitionCondition"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.CronJobStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscaler"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SELinuxOptions"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PreferredSchedulingTerm"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceRequirements"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolume"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentCondition"
@@ -67,19 +49,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NodeStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentStatus"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressRule"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.WeightedPodAffinityTerm"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.FSGroupStrategyOptions"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ServerAddressByClientCIDR"
@@ -88,46 +58,19 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyIngressRule"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodSecurityContext"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSet"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ComponentStatusList"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.EnvVar"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.Deployment"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EnvVar"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1.ClusterRoleBindingList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceAccountList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.ResourceMetricSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSet"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.DeleteOptions"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Binding"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.Subject"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSet"
@@ -148,22 +91,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentCondition"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationControllerSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetUpdateStrategy"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSetList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1.SelfSubjectAccessReviewSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.RollingUpdateDeployment"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Event"
@@ -175,19 +109,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Handler"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.Deployment"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.ServiceReference"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequestList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ScaleSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.QuobyteVolumeSource"
@@ -197,9 +122,6 @@
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ComponentCondition"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.PodSecurityPolicy"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationControllerSpec"
@@ -214,13 +136,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.VolumeMount"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeCondition"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.settings.v1alpha1.PodPresetSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSetUpdateStrategy"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.AzureDiskVolumeSource"
@@ -230,12 +146,6 @@
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicyIngressRule"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Secret"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Pod"
@@ -250,25 +160,16 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ServiceAccount"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodCondition"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ScaleStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.LimitRangeSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerState"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.NonResourceRule"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.LocalSubjectAccessReview"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.ExternalAdmissionHookConfigurationList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.FCVolumeSource"
@@ -286,31 +187,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.RollingUpdateDeployment"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LimitRangeList"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SelfSubjectAccessReview"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SelfSubjectAccessReview"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.LoadBalancerStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Handler"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.ScaleStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.AttachedVolume"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NodeSelectorTerm"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSetSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaPropsOrArray"
@@ -320,9 +203,6 @@
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authentication.v1.TokenReviewSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1.TokenReviewStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.CinderVolumeSource"
@@ -337,12 +217,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ContainerImage"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentRollback"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.JobTemplateSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.EmptyDirVolumeSource"
     }, 
     {
@@ -352,46 +226,16 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.batch.v1.JobStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SelfSubjectAccessReviewSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.InitializerConfiguration"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.CronJobList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeDaemonEndpoints"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ScaleSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.GlusterfsVolumeSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSetSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.HostAlias"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Container"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.batch.v2alpha1.CronJobStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerStateRunning"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SubjectAccessReview"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.PodDisruptionBudgetStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LocalVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1.RoleBindingList"
@@ -406,25 +250,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1.Role"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationController"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PodTemplate"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.RollingUpdateDeployment"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaimSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.APIGroup"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ComponentCondition"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.ExternalAdmissionHookConfiguration"
@@ -442,37 +274,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleBindingList"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LimitRange"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSetList"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PodTemplateList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.Initializer"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.PodSecurityPolicySpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.VolumeMount"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.ControllerRevision"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.ClusterRole"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaimList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.HostPathVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.SecretVolumeSource"
@@ -490,13 +298,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PortworxVolumeSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentStrategy"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.VolumeProjection"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.NonResourceAttributes"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentRollback"
@@ -505,28 +307,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetUpdateStrategy"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Pod"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.CephFSVolumeSource"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.ExternalDocumentation"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicyList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.Subject"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.RBDVolumeSource"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyIngressRule"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSelectorTerm"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ServiceStatus"
@@ -536,12 +323,6 @@
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.settings.v1alpha1.PodPreset"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1.UserInfo"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.GitRepoVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.LimitRangeItem"
@@ -565,25 +346,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.CephFSPersistentVolumeSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentCondition"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.EndpointPort"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.util.intstr.IntOrString"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.InitializerConfigurationList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.Ingress"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetCondition"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.RoleList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleBinding"
@@ -604,25 +373,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Node"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EmptyDirVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ScaleIOVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.DaemonEndpoint"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicyIngressRule"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicy"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ResourceQuota"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.PolicyRule"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ResourceQuotaList"
@@ -631,25 +385,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.HostPathVolumeSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerStatus"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.storage.v1.StorageClass"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SubjectAccessReview"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1beta1.UserInfo"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.StorageOSPersistentVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PodList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ComponentStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.HTTPIngressPath"
@@ -661,22 +403,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.PodSecurityPolicy"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeAddress"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentStatus"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.RollbackConfig"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.AWSElasticBlockStoreVolumeSource"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.Rule"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.PodDisruptionBudget"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authentication.v1.TokenReviewStatus"
@@ -712,9 +442,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.RunAsUserStrategyOptions"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Probe"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.PodsMetricStatus"
     }, 
     {
@@ -727,13 +454,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationControllerCondition"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequestSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1.SubjectAccessReviewSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.FCVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Binding"
@@ -769,12 +490,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentStrategy"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.ClusterRoleBindingList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.AzureDiskVolumeSource"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerCondition"
     }, 
     {
@@ -799,16 +514,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.WatchEvent"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicyList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EndpointSubset"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.SecretEnvSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.RoleRef"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicySpec"
@@ -820,16 +526,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v1.ScaleStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceQuotaStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretVolumeSource"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.storage.v1beta1.StorageClassList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PodTemplateSpec"
@@ -838,28 +535,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyPort"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequestCondition"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestCondition"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EndpointAddress"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceQuotaSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.QuobyteVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.ClusterRoleList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ContainerPort"
@@ -868,22 +547,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1.SubjectAccessReviewStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicyPort"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapProjection"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.SELinuxStrategyOptions"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerPort"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.HorizontalPodAutoscalerSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceValidation"
@@ -892,43 +559,16 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolume"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodAffinity"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SelfSubjectAccessReviewSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.LocalSubjectAccessReview"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentRollback"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.storage.v1beta1.StorageClass"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMap"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1.NonResourceRule"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.RoleBinding"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PodSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicySpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ObjectReference"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Taint"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Taint"
@@ -943,16 +583,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.HTTPHeader"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1.TokenReviewSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapKeySelector"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.networking.v1.IPBlock"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.CronJobSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.EnvVarSource"
@@ -964,19 +598,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.batch.v1beta1.JobTemplateSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.ResourceAttributes"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NodeAffinity"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.SupplementalGroupsStrategyOptions"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.api.resource.Quantity"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetStatus"
@@ -985,34 +607,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.LimitRangeList"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.RunAsUserStrategyOptions"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.Job"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ComponentStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationControllerStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationControllerCondition"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequest"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyEgressRule"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.LocalSubjectAccessReview"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SubjectAccessReviewSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.Scale"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyList"
@@ -1030,19 +628,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ResourceFieldSelector"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SelfSubjectAccessReview"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Endpoints"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EventList"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.ScaleSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressTLS"
@@ -1075,9 +664,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.LocalVolumeSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource"
     }, 
     {
@@ -1090,16 +676,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1.SubjectAccessReview"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PreferredSchedulingTerm"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressRule"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.GlusterfsVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NodeDaemonEndpoints"
@@ -1108,16 +685,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EndpointPort"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSetUpdateStrategy"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.ResourceMetricStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.Deployment"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetStatus"
@@ -1132,9 +700,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSet"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.RollbackConfig"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.NonResourceAttributes"
     }, 
     {
@@ -1144,46 +709,22 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetCondition"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.PodSecurityPolicyList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1beta1.TokenReview"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.CephFSVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Affinity"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.storage.v1.StorageClassList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerStateWaiting"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyPeer"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapProjection"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.DownwardAPIProjection"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.PolicyRule"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.InitializerConfiguration"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PhotonPersistentDiskVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.HorizontalPodAutoscaler"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.batch.v1.JobSpec"
@@ -1201,22 +742,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaPropsOrStringArray"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicyPort"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ReplicationControllerList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.RoleBinding"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NodeSystemInfo"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.Role"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Lifecycle"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.Scale"
@@ -1231,19 +757,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1.ResourceAttributes"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.ScaleSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSet"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.RollbackConfig"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authentication.v1beta1.TokenReviewSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.Subject"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRoleBindingList"
@@ -1252,37 +769,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ScaleIOVolumeSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.PodDisruptionBudgetSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NFSVolumeSource"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.StorageOSPersistentVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSetList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicy"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretKeySelector"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NamespaceSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentStrategy"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.RoleBindingList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v2alpha1.CronJob"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Status"
@@ -1291,13 +784,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.ControllerRevisionList"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.VolumeProjection"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.Eviction"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authentication.v1.UserInfo"
@@ -1312,31 +799,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationControllerStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.TCPSocketAction"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRole"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressBackend"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Toleration"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NamespaceList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.ResourceAttributes"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LocalObjectReference"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EnvFromSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.policy.v1beta1.PodDisruptionBudgetList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Lifecycle"
@@ -1348,12 +811,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ServiceAccountList"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.certificates.v1beta1.CertificateSigningRequestStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Service"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ContainerStateWaiting"
     }, 
     {
@@ -1363,16 +820,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceDefinition"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressTLS"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ClientIPConfig"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authentication.v1.TokenReview"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PortworxVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapList"
@@ -1387,22 +838,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicySpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SubjectAccessReviewSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.LocalObjectReference"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.RBDVolumeSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaim"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.WeightedPodAffinityTerm"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretEnvSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NodeAddress"
@@ -1420,13 +862,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.MetricStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.RollingUpdateDeployment"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Affinity"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimCondition"
@@ -1435,19 +871,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.ScaleStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.ClusterRoleBinding"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.Scale"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.JSONSchemaPropsOrBool"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.AzureFileVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.DownwardAPIVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PodSecurityContext"
@@ -1457,12 +884,6 @@
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ContainerStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.VsphereVirtualDiskVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceFieldSelector"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.Deployment"
@@ -1486,21 +907,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.RollingUpdateDaemonSet"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ObjectFieldSelector"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecurityContext"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMap"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1beta1.TokenReviewSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Capabilities"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentList"
     }, 
     {
@@ -1510,19 +916,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.LoadBalancerIngress"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.HostPortRange"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SelfSubjectRulesReviewSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LimitRangeItem"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PodAntiAffinity"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.HTTPHeader"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NodeSpec"
@@ -1540,9 +937,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscaler"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.HTTPGetAction"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1.Subject"
     }, 
     {
@@ -1552,25 +946,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.APIVersions"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.CrossVersionObjectReference"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.CinderVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.ControllerRevisionList"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.Role"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodTemplateList"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.PolicyRule"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EndpointsList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.batch.v1beta1.CronJobList"
@@ -1582,25 +961,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.Scale"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSetSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ConfigMapVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authentication.v1beta1.TokenReviewStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ExecAction"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ObjectReference"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.VsphereVirtualDiskVolumeSource"
@@ -1621,16 +985,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ContainerState"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaimVolumeSource"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicy"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.DownwardAPIVolumeSource"
@@ -1645,46 +1000,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetList"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1beta1.TokenReviewStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Container"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.RollingUpdateStatefulSetStrategy"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.MetricSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.JobCondition"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.RoleList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Node"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSelectorRequirement"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LoadBalancerIngress"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerImage"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.ControllerRevision"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.HorizontalPodAutoscalerStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSelector"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.batch.v2alpha1.CronJobSpec"
@@ -1693,16 +1015,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.PolicyRule"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapList"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ProjectedVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1.ClusterRoleList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.RollingUpdateStatefulSetStrategy"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.storage.v1beta1.StorageClassList"
@@ -1714,40 +1030,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.RoleRef"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.storage.v1.StorageClass"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1.SelfSubjectRulesReviewSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DaemonSetStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.SecretList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ControllerRevision"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.FlockerVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.RollingUpdateDaemonSet"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodAffinityTerm"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicySpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PhotonPersistentDiskVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.settings.v1alpha1.PodPreset"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PodAffinity"
@@ -1774,15 +1063,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetList"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.ClusterRoleBindingList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Volume"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapKeySelector"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Patch"
     }, 
     {
@@ -1790,9 +1070,6 @@
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NodeConfigSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.AdmissionHookClientConfig"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.EndpointSubset"
@@ -1808,9 +1085,6 @@
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleRef"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.HTTPIngressPath"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.runtime.RawExtension"
@@ -1834,61 +1108,16 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.GCEPersistentDiskVolumeSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ISCSIVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.ScaleStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRoleBinding"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeSystemInfo"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.KeyToPath"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.JobStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1.ClusterRole"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSetCondition"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.GCEPersistentDiskVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServiceAccount"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ContainerStateRunning"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v1.CrossVersionObjectReference"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.ClusterRoleList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1.SubjectAccessReviewStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.HorizontalPodAutoscalerList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressBackend"
@@ -1903,12 +1132,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ServicePort"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IngressSpec"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetSpec"
     }, 
     {
@@ -1918,16 +1141,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentRollback"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.RuleWithOperations"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ServicePort"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NodeSelector"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.batch.v1beta1.CronJobSpec"
@@ -1936,34 +1153,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.RoleRef"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicy"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PodCondition"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ConfigMapEnvSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.settings.v1alpha1.PodPresetSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.ExternalAdmissionHook"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ContainerStateTerminated"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.DownwardAPIVolumeFile"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.ServiceReference"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.RoleBindingList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.RoleBinding"
@@ -1972,13 +1165,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.EventSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.settings.v1alpha1.PodPresetList"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.StatefulSetStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ResourceRequirements"
@@ -1990,16 +1177,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleList"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentList"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.SELinuxOptions"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ScaleStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LoadBalancerStatus"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.SubjectRulesReviewStatus"
@@ -2008,46 +1186,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerStatus"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.PodSecurityPolicySpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Namespace"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Event"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.ReplicationController"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1.LocalSubjectAccessReview"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.DeploymentCondition"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceQuotaList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.LimitRangeSpec"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.FlexVolumeSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.DownwardAPIVolumeFile"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.authorization.v1.ResourceRule"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.ClusterRoleBinding"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.Rule"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.admissionregistration.v1alpha1.ExternalAdmissionHookConfiguration"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Preconditions"
@@ -2059,16 +1204,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.GroupVersionForDiscovery"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.ReplicaSetStatus"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRoleBindingList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaim"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.JobList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.storage.v1.StorageClassList"
@@ -2083,31 +1222,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.Probe"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authentication.v1.TokenReview"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.SecretProjection"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PersistentVolumeClaimStatus"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.FSGroupStrategyOptions"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.DaemonEndpoint"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.Endpoints"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.autoscaling.v1.Scale"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.autoscaling.v1.Scale"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.StorageOSVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.AdmissionHookClientConfig"
@@ -2116,25 +1237,10 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.settings.v1alpha1.PodPresetList"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.IDRange"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.APIGroupList"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSet"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.NetworkPolicyPeer"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.batch.v1.JobSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.NamespaceSpec"
@@ -2143,22 +1249,7 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.FlockerVolumeSource"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ResourceQuota"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.EnvFromSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.RollbackConfig"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.RoleList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1beta1.Role"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.ProjectedVolumeSource"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.SecretReference"
@@ -2170,25 +1261,13 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta1.ScaleSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.rbac.v1alpha1.ClusterRole"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentSpec"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.apps.v1beta1.DeploymentStrategy"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.batch.v1beta1.CronJob"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.networking.v1.NetworkPolicyPeer"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NodeAffinity"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSet"
@@ -2212,9 +1291,6 @@
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.rbac.v1.RoleList"
     }, 
     {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodTemplate"
-    }, 
-    {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.core.v1.SecurityContext"
     }, 
     {
@@ -2222,12 +1298,6 @@
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSet"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.authorization.v1beta1.SubjectAccessReviewStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodTemplateSpec"
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kube-aggregator.pkg.apis.apiregistration.v1beta1.APIServiceList"
@@ -2252,18 +1322,6 @@
     }, 
     {
       "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.api.apps.v1beta2.ControllerRevisionList"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.NamespaceStatus"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.PodAntiAffinity"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.api.v1.EnvVarSource"
-    }, 
-    {
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.15/_definitions.json#/definitions/io.k8s.kubernetes.pkg.apis.extensions.v1beta1.HTTPIngressRuleValue"
     }
   ]
 }

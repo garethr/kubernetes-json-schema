@@ -1,12 +1,14 @@
 {
-  "additionalProperties": false, 
+  "description": "DaemonSetStatus represents the current status of a daemon set.", 
   "required": [
     "currentNumberScheduled", 
     "numberMisscheduled", 
     "desiredNumberScheduled", 
     "numberReady"
   ], 
-  "description": "DaemonSetStatus represents the current status of a daemon set.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "collisionCount": {
       "type": "integer", 

@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "Represents a host path mapped into a pod. Host path volumes do not support ownership management or SELinux relabeling.", 
   "required": [
     "path"
   ], 
-  "description": "Represents a host path mapped into a pod. Host path volumes do not support ownership management or SELinux relabeling.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "path": {
       "type": [

@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "PodList is a list of Pods.", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": ""
     }
   ], 
-  "description": "PodList is a list of Pods.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

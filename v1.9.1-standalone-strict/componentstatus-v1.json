@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "ComponentStatus (and ComponentStatusList) holds the cluster validation info.", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "ComponentStatus", 
@@ -7,7 +7,9 @@
       "group": ""
     }
   ], 
-  "description": "ComponentStatus (and ComponentStatusList) holds the cluster validation info.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "kind": {
       "type": [
@@ -49,13 +51,13 @@
           }
         }
       }, 
-      "x-kubernetes-patch-merge-key": "type", 
       "type": [
         "array", 
         "null"
       ], 
       "description": "List of component conditions observed", 
-      "x-kubernetes-patch-strategy": "merge"
+      "x-kubernetes-patch-strategy": "merge", 
+      "x-kubernetes-patch-merge-key": "type"
     }, 
     "apiVersion": {
       "type": [

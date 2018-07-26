@@ -1,4 +1,5 @@
 {
+  "description": "Status of all the conditions for the component as a list of ComponentStatus objects.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": ""
     }
   ], 
-  "description": "Status of all the conditions for the component as a list of ComponentStatus objects.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

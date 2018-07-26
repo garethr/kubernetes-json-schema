@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "DEPRECATED 1.9 - This group version of NetworkPolicySpec is deprecated by networking/v1/NetworkPolicySpec.", 
   "required": [
     "podSelector"
   ], 
-  "description": "DEPRECATED 1.9 - This group version of NetworkPolicySpec is deprecated by networking/v1/NetworkPolicySpec.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "policyTypes": {
       "items": {

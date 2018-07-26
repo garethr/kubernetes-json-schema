@@ -1,7 +1,9 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "names"
   ], 
+  "type": "object", 
   "description": "Describe a container image", 
   "properties": {
     "sizeBytes": {

@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "Local represents directly-attached storage with node affinity", 
   "required": [
     "path"
   ], 
-  "description": "Local represents directly-attached storage with node affinity", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "path": {
       "type": [

@@ -1,4 +1,5 @@
 {
+  "description": "LocalSubjectAccessReview checks whether or not a user or group can perform an action in a given namespace. Having a namespace scoped resource makes it much easier to grant namespace scoped policy that includes permissions checking.", 
   "required": [
     "spec"
   ], 
@@ -9,7 +10,8 @@
       "group": "authorization.k8s.io"
     }
   ], 
-  "description": "LocalSubjectAccessReview checks whether or not a user or group can perform an action in a given namespace. Having a namespace scoped resource makes it much easier to grant namespace scoped policy that includes permissions checking.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "required": [

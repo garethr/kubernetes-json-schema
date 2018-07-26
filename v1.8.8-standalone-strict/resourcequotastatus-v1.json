@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "ResourceQuotaStatus defines the enforced hard limits and observed use.", 
   "properties": {
     "hard": {

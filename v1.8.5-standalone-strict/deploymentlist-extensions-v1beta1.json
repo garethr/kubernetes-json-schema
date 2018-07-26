@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "DeploymentList is a list of Deployments.", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": "extensions"
     }
   ], 
-  "description": "DeploymentList is a list of Deployments.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

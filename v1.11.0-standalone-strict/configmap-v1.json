@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "ConfigMap holds configuration data for pods to consume.", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "ConfigMap", 
@@ -7,7 +7,9 @@
       "group": ""
     }
   ], 
-  "description": "ConfigMap holds configuration data for pods to consume.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "kind": {
       "type": [

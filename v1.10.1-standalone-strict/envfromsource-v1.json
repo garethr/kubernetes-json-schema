@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "EnvFromSource represents the source of a set of ConfigMaps", 
   "properties": {
     "prefix": {

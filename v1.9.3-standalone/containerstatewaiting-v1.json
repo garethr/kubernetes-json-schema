@@ -1,4 +1,6 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "ContainerStateWaiting is a waiting state of a container.", 
   "properties": {
     "message": {

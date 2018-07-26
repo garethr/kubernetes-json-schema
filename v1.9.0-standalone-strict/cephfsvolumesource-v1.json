@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "Represents a Ceph Filesystem mount that lasts the lifetime of a pod Cephfs volumes do not support ownership management or SELinux relabeling.", 
   "required": [
     "monitors"
   ], 
-  "description": "Represents a Ceph Filesystem mount that lasts the lifetime of a pod Cephfs volumes do not support ownership management or SELinux relabeling.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "secretRef": {
       "additionalProperties": false, 

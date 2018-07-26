@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "ExternalAdmissionHookConfiguration describes the configuration of initializers.", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "ExternalAdmissionHookConfiguration", 
@@ -7,7 +7,9 @@
       "group": "admissionregistration.k8s.io"
     }
   ], 
-  "description": "ExternalAdmissionHookConfiguration describes the configuration of initializers.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "kind": {
       "type": [
@@ -15,13 +17,6 @@
         "null"
       ], 
       "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds"
-    }, 
-    "apiVersion": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources"
     }, 
     "externalAdmissionHooks": {
       "items": {
@@ -143,13 +138,20 @@
           }
         }
       }, 
-      "x-kubernetes-patch-merge-key": "name", 
       "type": [
         "array", 
         "null"
       ], 
       "description": "ExternalAdmissionHooks is a list of external admission webhooks and the affected resources and operations.", 
-      "x-kubernetes-patch-strategy": "merge"
+      "x-kubernetes-patch-strategy": "merge", 
+      "x-kubernetes-patch-merge-key": "name"
+    }, 
+    "apiVersion": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources"
     }, 
     "metadata": {
       "additionalProperties": false, 

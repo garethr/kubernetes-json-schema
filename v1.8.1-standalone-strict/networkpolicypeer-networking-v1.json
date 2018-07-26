@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "NetworkPolicyPeer describes a peer to allow traffic from. Exactly one of its fields must be specified.", 
   "properties": {
     "namespaceSelector": {

@@ -1,7 +1,9 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "containers"
   ], 
+  "type": "object", 
   "description": "PodSpec is a description of a pod.", 
   "properties": {
     "dnsPolicy": {

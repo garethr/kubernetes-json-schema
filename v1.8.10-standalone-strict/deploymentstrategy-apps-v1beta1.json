@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "DeploymentStrategy describes how to replace existing pods with new ones.", 
   "properties": {
     "rollingUpdate": {

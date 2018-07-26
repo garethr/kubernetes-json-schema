@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "Node is a worker node in Kubernetes. Each node will have a unique identifier in the cache (i.e. in etcd).", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "Node", 
@@ -7,7 +7,9 @@
       "group": ""
     }
   ], 
-  "description": "Node is a worker node in Kubernetes. Each node will have a unique identifier in the cache (i.e. in etcd).", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "additionalProperties": false, 

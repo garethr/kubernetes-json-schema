@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.networking.v1.NetworkPolicyPeer instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.9.9/_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyPeer"
+  "description": "NetworkPolicyPeer describes a peer to allow traffic from. Exactly one of its fields must be specified.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyPeer"
 }

@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "This NetworkPolicyIngressRule matches traffic if and only if the traffic matches both ports AND from.", 
   "properties": {
     "from": {

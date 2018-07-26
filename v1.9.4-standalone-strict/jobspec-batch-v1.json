@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "JobSpec describes how the job execution will look like.", 
   "required": [
     "template"
   ], 
-  "description": "JobSpec describes how the job execution will look like.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "backoffLimit": {
       "type": "integer", 

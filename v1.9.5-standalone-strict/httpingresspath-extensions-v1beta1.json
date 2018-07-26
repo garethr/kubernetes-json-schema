@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "HTTPIngressPath associates a path regex with a backend. Incoming urls matching the path are forwarded to the backend.", 
   "required": [
     "backend"
   ], 
-  "description": "HTTPIngressPath associates a path regex with a backend. Incoming urls matching the path are forwarded to the backend.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "path": {
       "type": [

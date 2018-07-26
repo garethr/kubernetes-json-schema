@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding.", 
   "required": [
     "rules"
   ], 
@@ -10,7 +10,9 @@
       "group": "rbac.authorization.k8s.io"
     }
   ], 
-  "description": "ClusterRole is a cluster level, logical grouping of PolicyRules that can be referenced as a unit by a RoleBinding or ClusterRoleBinding.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "rules": {
       "items": {

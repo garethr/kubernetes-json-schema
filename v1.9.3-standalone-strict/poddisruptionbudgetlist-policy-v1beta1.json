@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "PodDisruptionBudgetList is a collection of PodDisruptionBudgets.", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": "policy"
     }
   ], 
-  "description": "PodDisruptionBudgetList is a collection of PodDisruptionBudgets.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

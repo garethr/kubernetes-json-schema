@@ -1,5 +1,7 @@
 {
   "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "description": "EnvVarSource represents a source for the value of an EnvVar.", 
   "properties": {
     "secretKeyRef": {
@@ -46,30 +48,6 @@
         }
       }
     }, 
-    "configMapKeyRef": {
-      "additionalProperties": false, 
-      "required": [
-        "key"
-      ], 
-      "description": "Selects a key from a ConfigMap.", 
-      "properties": {
-        "optional": {
-          "type": "boolean", 
-          "description": "Specify whether the ConfigMap or it's key must be defined"
-        }, 
-        "name": {
-          "type": [
-            "string", 
-            "null"
-          ], 
-          "description": "Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names"
-        }, 
-        "key": {
-          "type": "string", 
-          "description": "The key to select."
-        }
-      }
-    }, 
     "resourceFieldRef": {
       "additionalProperties": false, 
       "required": [
@@ -100,6 +78,30 @@
               "type": "integer"
             }
           ]
+        }
+      }
+    }, 
+    "configMapKeyRef": {
+      "additionalProperties": false, 
+      "required": [
+        "key"
+      ], 
+      "description": "Selects a key from a ConfigMap.", 
+      "properties": {
+        "optional": {
+          "type": "boolean", 
+          "description": "Specify whether the ConfigMap or it's key must be defined"
+        }, 
+        "name": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names"
+        }, 
+        "key": {
+          "type": "string", 
+          "description": "The key to select."
         }
       }
     }

@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "RoleBindingList is a collection of RoleBindings", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": "rbac.authorization.k8s.io"
     }
   ], 
-  "description": "RoleBindingList is a collection of RoleBindings", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

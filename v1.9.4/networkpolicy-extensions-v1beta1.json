@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.extensions.v1beta1.NetworkPolicy instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.9.4/_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicy"
+  "description": "DEPRECATED 1.9 - This group version of NetworkPolicy is deprecated by networking/v1/NetworkPolicy. NetworkPolicy describes what network traffic is allowed for a set of Pods", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicy"
 }

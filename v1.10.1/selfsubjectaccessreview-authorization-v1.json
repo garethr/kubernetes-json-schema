@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.authorization.v1.SelfSubjectAccessReview instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.10.1/_definitions.json#/definitions/io.k8s.api.authorization.v1.SelfSubjectAccessReview"
+  "description": "SelfSubjectAccessReview checks whether or the current user can perform an action.  Not filling in a spec.namespace means \"in all namespaces\".  Self is a special case, because users should always be able to check whether they can perform an action", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.authorization.v1.SelfSubjectAccessReview"
 }

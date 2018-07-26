@@ -1,9 +1,11 @@
 {
-  "additionalProperties": false, 
+  "description": "DownwardAPIVolumeFile represents information to create the file containing the pod field", 
   "required": [
     "path"
   ], 
-  "description": "DownwardAPIVolumeFile represents information to create the file containing the pod field", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "path": {
       "type": [

@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "AttachedVolume describes a volume attached to a node", 
   "required": [
     "name", 
     "devicePath"
   ], 
-  "description": "AttachedVolume describes a volume attached to a node", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "devicePath": {
       "type": [

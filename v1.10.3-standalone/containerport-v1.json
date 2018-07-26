@@ -1,7 +1,9 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "containerPort"
   ], 
+  "type": "object", 
   "description": "ContainerPort represents a network port in a single container.", 
   "properties": {
     "hostIP": {

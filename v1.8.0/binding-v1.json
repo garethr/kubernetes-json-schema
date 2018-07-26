@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#", 
   "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.core.v1.Binding instead.", 
-  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.8.0/_definitions.json#/definitions/io.k8s.api.core.v1.Binding"
+  "description": "Binding ties one object to another; for example, a pod is bound to a node by a scheduler. Deprecated in 1.7, please use the bindings subresource of pods instead.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Binding"
 }

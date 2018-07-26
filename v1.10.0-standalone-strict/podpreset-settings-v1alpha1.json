@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "PodPreset is a policy resource that defines additional runtime requirements for a Pod.", 
   "x-kubernetes-group-version-kind": [
     {
       "kind": "PodPreset", 
@@ -7,7 +7,9 @@
       "group": "settings.k8s.io"
     }
   ], 
-  "description": "PodPreset is a policy resource that defines additional runtime requirements for a Pod.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "kind": {
       "type": [

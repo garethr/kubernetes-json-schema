@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "The weights of all of the matched WeightedPodAffinityTerm fields are added per-node to find the most preferred node(s)", 
   "required": [
     "weight", 
     "podAffinityTerm"
   ], 
-  "description": "The weights of all of the matched WeightedPodAffinityTerm fields are added per-node to find the most preferred node(s)", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "podAffinityTerm": {
       "additionalProperties": false, 

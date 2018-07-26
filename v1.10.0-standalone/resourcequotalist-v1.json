@@ -1,4 +1,5 @@
 {
+  "description": "ResourceQuotaList is a list of ResourceQuota items.", 
   "required": [
     "items"
   ], 
@@ -9,7 +10,8 @@
       "group": ""
     }
   ], 
-  "description": "ResourceQuotaList is a list of ResourceQuota items.", 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

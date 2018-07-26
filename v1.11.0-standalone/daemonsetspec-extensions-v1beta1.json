@@ -1,7 +1,9 @@
 {
+  "$schema": "http://json-schema.org/schema#", 
   "required": [
     "template"
   ], 
+  "type": "object", 
   "description": "DaemonSetSpec is the specification of a daemon set.", 
   "properties": {
     "templateGeneration": {

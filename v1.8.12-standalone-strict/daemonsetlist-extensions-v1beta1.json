@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "DaemonSetList is a collection of daemon sets.", 
   "required": [
     "items"
   ], 
@@ -10,7 +10,9 @@
       "group": "extensions"
     }
   ], 
-  "description": "DaemonSetList is a collection of daemon sets.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "items": {
       "items": {

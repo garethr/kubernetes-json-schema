@@ -1,10 +1,12 @@
 {
-  "additionalProperties": false, 
+  "description": "NodeCondition contains condition information for a node.", 
   "required": [
     "type", 
     "status"
   ], 
-  "description": "NodeCondition contains condition information for a node.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "status": {
       "type": [
@@ -21,6 +23,13 @@
       "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
       "format": "date-time"
     }, 
+    "reason": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "(brief) reason for the condition's last transition."
+    }, 
     "lastHeartbeatTime": {
       "type": [
         "string", 
@@ -28,13 +37,6 @@
       ], 
       "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
       "format": "date-time"
-    }, 
-    "reason": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "(brief) reason for the condition's last transition."
     }, 
     "message": {
       "type": [

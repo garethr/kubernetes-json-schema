@@ -1,5 +1,5 @@
 {
-  "additionalProperties": false, 
+  "description": "NodeSystemInfo is a set of ids/uuids to uniquely identify the node.", 
   "required": [
     "machineID", 
     "systemUUID", 
@@ -12,7 +12,9 @@
     "operatingSystem", 
     "architecture"
   ], 
-  "description": "NodeSystemInfo is a set of ids/uuids to uniquely identify the node.", 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
   "properties": {
     "kernelVersion": {
       "type": [
