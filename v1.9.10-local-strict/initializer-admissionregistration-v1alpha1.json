@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Initializer describes the name and the failure policy of an initializer, and what resources it applies to.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1alpha1.Initializer"
+}

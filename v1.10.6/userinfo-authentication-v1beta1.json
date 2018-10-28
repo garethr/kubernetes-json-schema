@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "UserInfo holds the information about the user needed to implement the user.Info interface.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.authentication.v1beta1.UserInfo"
+}

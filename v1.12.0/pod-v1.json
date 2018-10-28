@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Pod is a collection of containers that can run on a host. This resource is created by clients and scheduled onto hosts.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Pod"
+}

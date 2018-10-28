@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "CronJobList is a collection of cron jobs.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.batch.v1beta1.CronJobList"
+}

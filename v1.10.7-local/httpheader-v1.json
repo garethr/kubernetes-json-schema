@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "HTTPHeader describes a custom header to be used in HTTP probes", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.HTTPHeader"
+}

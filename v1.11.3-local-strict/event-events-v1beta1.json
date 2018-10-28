@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Event is a report of an event somewhere in the cluster. It generally denotes some state change in the system.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.events.v1beta1.Event"
+}

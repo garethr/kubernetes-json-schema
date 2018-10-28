@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "The pod this Toleration is attached to tolerates any taint that matches the triple <key,value,effect> using the matching operator <operator>.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Toleration"
+}

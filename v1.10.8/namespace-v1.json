@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Namespace provides a scope for Names. Use of multiple namespaces is optional.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Namespace"
+}

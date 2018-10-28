@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ObjectReference contains enough information to let you inspect or modify the referred object.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ObjectReference"
+}

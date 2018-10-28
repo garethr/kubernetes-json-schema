@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "IngressSpec describes the Ingress the user wishes to exist.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.IngressSpec"
+}

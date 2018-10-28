@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ScaleSpec describes the attributes of a scale subresource.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.ScaleSpec"
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ClusterRoleBinding references a ClusterRole, but not contain it.  It can reference a ClusterRole in the global namespace, and adds who information via Subject.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRoleBinding"
+}

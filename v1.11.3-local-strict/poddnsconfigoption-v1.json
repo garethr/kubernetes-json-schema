@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "PodDNSConfigOption defines DNS resolver options of a pod.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodDNSConfigOption"
+}

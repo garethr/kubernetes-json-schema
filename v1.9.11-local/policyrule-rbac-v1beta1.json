@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "PolicyRule holds information that describes a policy rule, but does not contain information about who the rule applies to or which namespace the rule applies to.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.rbac.v1beta1.PolicyRule"
+}

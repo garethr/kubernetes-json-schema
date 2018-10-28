@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Maps a string key to a path within a volume.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.KeyToPath"
+}

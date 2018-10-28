@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Volume represents a named volume in a pod that may be accessed by any container in the pod.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Volume"
+}
