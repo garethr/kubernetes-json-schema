@@ -10,11 +10,31 @@
 REPO="garethr/kubernetes-json-schema"
 
 declare -a arr=(master
+                v1.13.0
+                v1.12.3
+                v1.12.2
+                v1.12.1
+                v1.12.0
+                v1.11.5
+                v1.11.4
+                v1.11.3
+                v1.11.2
+                v1.11.0
+                v1.10.11
+                v1.10.10
+                v1.10.9
+                v1.10.8
+                v1.10.7
+                v1.10.6
+                v1.10.5
                 v1.10.4
                 v1.10.3
                 v1.10.2
                 v1.10.1
                 v1.10.0
+                v1.9.11
+                v1.9.10
+                v1.9.9
                 v1.9.8
                 v1.9.7
                 v1.9.6
@@ -24,6 +44,9 @@ declare -a arr=(master
                 v1.9.2
                 v1.9.1
                 v1.9.0
+                v1.8.15
+                v1.8.14
+                v1.8.13
                 v1.8.13
                 v1.8.12
                 v1.8.11
@@ -84,6 +107,7 @@ do
     schema=https://raw.githubusercontent.com/kubernetes/kubernetes/${version}/api/openapi-spec/swagger.json
     prefix=https://raw.githubusercontent.com/${REPO}/master/${version}/_definitions.json
 
+    openapi2jsonschema -o "${version}-standalone-strict" --kubernetes --stand-alone --strict "${schema}"
     openapi2jsonschema -o "${version}-standalone" --kubernetes --stand-alone "${schema}"
     openapi2jsonschema -o "${version}-local" --kubernetes "${schema}"
     openapi2jsonschema -o "${version}" --kubernetes --prefix "${prefix}" "${schema}"
