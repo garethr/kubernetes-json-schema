@@ -10,6 +10,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "extensions/v1beta1"
       ]
     },
     "kind": {
@@ -17,6 +20,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "DeploymentRollback"
       ]
     },
     "name": {

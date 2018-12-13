@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "admissionregistration.k8s.io/v1alpha1"
       ]
     },
     "items": {
@@ -25,6 +28,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "admissionregistration.k8s.io/v1alpha1"
             ]
           },
           "initializers": {
@@ -104,6 +110,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "InitializerConfiguration"
             ]
           },
           "metadata": {
@@ -203,6 +212,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -286,6 +298,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -452,6 +467,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "InitializerConfigurationList"
       ]
     },
     "metadata": {

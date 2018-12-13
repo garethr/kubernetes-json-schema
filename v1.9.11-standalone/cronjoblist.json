@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "batch/v2alpha1"
       ]
     },
     "items": {
@@ -25,6 +28,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "batch/v2alpha1"
             ]
           },
           "kind": {
@@ -32,6 +38,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "CronJob"
             ]
           },
           "metadata": {
@@ -131,6 +140,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -214,6 +226,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -484,6 +499,9 @@
                                 "type": [
                                   "string",
                                   "null"
+                                ],
+                                "enum": [
+                                  "v1"
                                 ]
                               },
                               "code": {
@@ -567,6 +585,9 @@
                                 "type": [
                                   "string",
                                   "null"
+                                ],
+                                "enum": [
+                                  "Status"
                                 ]
                               },
                               "message": {
@@ -902,6 +923,9 @@
                                         "type": [
                                           "string",
                                           "null"
+                                        ],
+                                        "enum": [
+                                          "v1"
                                         ]
                                       },
                                       "code": {
@@ -985,6 +1009,9 @@
                                         "type": [
                                           "string",
                                           "null"
+                                        ],
+                                        "enum": [
+                                          "Status"
                                         ]
                                       },
                                       "message": {
@@ -5384,6 +5411,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "CronJobList"
       ]
     },
     "metadata": {

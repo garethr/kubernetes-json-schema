@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "storage.k8s.io/v1beta1"
       ]
     },
     "kind": {
@@ -16,6 +19,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "VolumeAttachment"
       ]
     },
     "metadata": {

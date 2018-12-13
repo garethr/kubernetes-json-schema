@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "v1"
       ]
     },
     "items": {
@@ -25,6 +28,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "v1"
             ]
           },
           "data": {
@@ -42,6 +48,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "ConfigMap"
             ]
           },
           "metadata": {
@@ -142,6 +151,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -227,6 +239,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -399,6 +414,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "ConfigMapList"
       ]
     },
     "metadata": {

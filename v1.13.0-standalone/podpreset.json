@@ -6,6 +6,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "settings.k8s.io/v1alpha1"
       ]
     },
     "kind": {
@@ -13,6 +16,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "PodPreset"
       ]
     },
     "metadata": {
@@ -114,6 +120,9 @@
                   "type": [
                     "string",
                     "null"
+                  ],
+                  "enum": [
+                    "v1"
                   ]
                 },
                 "code": {
@@ -197,6 +206,9 @@
                   "type": [
                     "string",
                     "null"
+                  ],
+                  "enum": [
+                    "Status"
                   ]
                 },
                 "message": {

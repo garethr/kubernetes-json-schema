@@ -11,6 +11,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "v1"
       ]
     },
     "kind": {
@@ -18,6 +21,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "APIGroup"
       ]
     },
     "name": {

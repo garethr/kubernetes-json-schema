@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "v1"
       ]
     },
     "groups": {
@@ -26,6 +29,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "APIGroupList"
       ]
     }
   },

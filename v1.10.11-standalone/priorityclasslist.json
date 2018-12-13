@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "scheduling.k8s.io/v1alpha1"
       ]
     },
     "items": {
@@ -28,6 +31,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "scheduling.k8s.io/v1alpha1"
             ]
           },
           "description": {
@@ -46,6 +52,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "PriorityClass"
             ]
           },
           "metadata": {
@@ -145,6 +154,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -228,6 +240,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -399,6 +414,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "PriorityClassList"
       ]
     },
     "metadata": {

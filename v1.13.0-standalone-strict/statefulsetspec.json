@@ -188,6 +188,9 @@
                       "type": [
                         "string",
                         "null"
+                      ],
+                      "enum": [
+                        "v1"
                       ]
                     },
                     "code": {
@@ -273,6 +276,9 @@
                       "type": [
                         "string",
                         "null"
+                      ],
+                      "enum": [
+                        "Status"
                       ]
                     },
                     "message": {
@@ -4973,6 +4979,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "v1"
             ]
           },
           "kind": {
@@ -4980,6 +4989,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "PersistentVolumeClaim"
             ]
           },
           "metadata": {
@@ -5082,6 +5094,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -5167,6 +5182,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {

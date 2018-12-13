@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "v1"
       ]
     },
     "items": {
@@ -25,6 +28,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "v1"
             ]
           },
           "kind": {
@@ -32,6 +38,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "Node"
             ]
           },
           "metadata": {
@@ -131,6 +140,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -214,6 +226,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -376,6 +391,9 @@
                     "type": [
                       "string",
                       "null"
+                    ],
+                    "enum": [
+                      "v1"
                     ]
                   },
                   "configMapRef": {
@@ -437,6 +455,9 @@
                     "type": [
                       "string",
                       "null"
+                    ],
+                    "enum": [
+                      "NodeConfigSource"
                     ]
                   }
                 },
@@ -796,6 +817,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "NodeList"
       ]
     },
     "metadata": {

@@ -6,6 +6,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "v1"
       ]
     },
     "configMapRef": {
@@ -16,6 +19,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "NodeConfigSource"
       ]
     }
   },

@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "v1"
       ]
     },
     "items": {
@@ -28,6 +31,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "v1"
             ]
           },
           "kind": {
@@ -35,6 +41,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "Endpoints"
             ]
           },
           "metadata": {
@@ -135,6 +144,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -220,6 +232,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -615,6 +630,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "EndpointsList"
       ]
     },
     "metadata": {

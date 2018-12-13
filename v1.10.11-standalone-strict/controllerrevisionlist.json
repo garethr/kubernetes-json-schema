@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "apps/v1beta1"
       ]
     },
     "items": {
@@ -28,6 +31,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "apps/v1beta1"
             ]
           },
           "data": {
@@ -49,6 +55,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "ControllerRevision"
             ]
           },
           "metadata": {
@@ -149,6 +158,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -234,6 +246,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -411,6 +426,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "ControllerRevisionList"
       ]
     },
     "metadata": {

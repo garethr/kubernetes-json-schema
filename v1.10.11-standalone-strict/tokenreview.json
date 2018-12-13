@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "authentication.k8s.io/v1beta1"
       ]
     },
     "kind": {
@@ -16,6 +19,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "TokenReview"
       ]
     },
     "metadata": {
@@ -116,6 +122,9 @@
                   "type": [
                     "string",
                     "null"
+                  ],
+                  "enum": [
+                    "v1"
                   ]
                 },
                 "code": {
@@ -201,6 +210,9 @@
                   "type": [
                     "string",
                     "null"
+                  ],
+                  "enum": [
+                    "Status"
                   ]
                 },
                 "message": {

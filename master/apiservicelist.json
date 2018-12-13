@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "apiregistration.k8s.io/v1beta1"
       ]
     },
     "items": {
@@ -25,6 +28,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "APIServiceList"
       ]
     },
     "metadata": {

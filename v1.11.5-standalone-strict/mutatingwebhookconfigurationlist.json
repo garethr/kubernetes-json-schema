@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "admissionregistration.k8s.io/v1beta1"
       ]
     },
     "items": {
@@ -25,6 +28,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "admissionregistration.k8s.io/v1beta1"
             ]
           },
           "kind": {
@@ -32,6 +38,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "MutatingWebhookConfiguration"
             ]
           },
           "metadata": {
@@ -134,6 +143,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -219,6 +231,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -588,6 +603,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "MutatingWebhookConfigurationList"
       ]
     },
     "metadata": {

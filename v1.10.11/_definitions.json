@@ -24,7 +24,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "admissionregistration.k8s.io/v1alpha1"
+          ]
         },
         "initializers": {
           "description": "Initializers is a list of resources and their default initializers Order-sensitive. When merging multiple InitializerConfigurations, we sort the initializers from different InitializerConfigurations by the name of the InitializerConfigurations; the order of the initializers from the same InitializerConfiguration is preserved.",
@@ -37,7 +40,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "InitializerConfiguration"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.",
@@ -60,7 +66,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "admissionregistration.k8s.io/v1alpha1"
+          ]
         },
         "items": {
           "description": "List of InitializerConfiguration.",
@@ -71,7 +80,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "InitializerConfigurationList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -117,11 +129,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "admissionregistration.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "MutatingWebhookConfiguration"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.",
@@ -153,7 +171,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "admissionregistration.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "description": "List of MutatingWebhookConfiguration.",
@@ -164,7 +185,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "MutatingWebhookConfigurationList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -238,11 +262,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "admissionregistration.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ValidatingWebhookConfiguration"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.",
@@ -274,7 +304,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "admissionregistration.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "description": "List of ValidatingWebhookConfiguration.",
@@ -285,7 +318,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ValidatingWebhookConfigurationList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -361,7 +397,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "data": {
           "description": "Data is the serialized representation of the state.",
@@ -369,7 +408,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ControllerRevision"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -397,7 +439,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "items": {
           "description": "Items is the list of ControllerRevisions",
@@ -408,7 +453,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ControllerRevisionList"
+          ]
         },
         "metadata": {
           "description": "More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -428,11 +476,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DaemonSet"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -492,7 +546,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "items": {
           "description": "A list of daemon sets.",
@@ -503,7 +560,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DaemonSetList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -632,11 +692,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Deployment"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata.",
@@ -700,7 +766,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "items": {
           "description": "Items is the list of Deployments.",
@@ -711,7 +780,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DeploymentList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata.",
@@ -838,11 +910,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ReplicaSet"
+          ]
         },
         "metadata": {
           "description": "If the Labels of a ReplicaSet are empty, they are defaulted to be the same as the Pod(s) that the ReplicaSet manages. Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -902,7 +980,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "items": {
           "description": "List of ReplicaSets. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller",
@@ -913,7 +994,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ReplicaSetList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -1033,11 +1117,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StatefulSet"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -1096,7 +1186,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1"
+          ]
         },
         "items": {
           "type": "array",
@@ -1106,7 +1199,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StatefulSetList"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta"
@@ -1243,7 +1339,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta1"
+          ]
         },
         "data": {
           "description": "Data is the serialized representation of the state.",
@@ -1251,7 +1350,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ControllerRevision"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -1279,7 +1381,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is the list of ControllerRevisions",
@@ -1290,7 +1395,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ControllerRevisionList"
+          ]
         },
         "metadata": {
           "description": "More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -1310,11 +1418,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Deployment"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata.",
@@ -1378,7 +1492,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is the list of Deployments.",
@@ -1389,7 +1506,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DeploymentList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata.",
@@ -1413,11 +1533,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DeploymentRollback"
+          ]
         },
         "name": {
           "description": "Required: This must match the Name of a deployment.",
@@ -1591,11 +1717,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Scale"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.",
@@ -1657,11 +1789,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StatefulSet"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -1720,7 +1858,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta1"
+          ]
         },
         "items": {
           "type": "array",
@@ -1730,7 +1871,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StatefulSetList"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta"
@@ -1866,7 +2010,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "data": {
           "description": "Data is the serialized representation of the state.",
@@ -1874,7 +2021,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ControllerRevision"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -1902,7 +2052,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "items": {
           "description": "Items is the list of ControllerRevisions",
@@ -1913,7 +2066,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ControllerRevisionList"
+          ]
         },
         "metadata": {
           "description": "More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -1933,11 +2089,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DaemonSet"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -1997,7 +2159,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "items": {
           "description": "A list of daemon sets.",
@@ -2008,7 +2173,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DaemonSetList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -2137,11 +2305,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Deployment"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata.",
@@ -2205,7 +2379,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "items": {
           "description": "Items is the list of Deployments.",
@@ -2216,7 +2393,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DeploymentList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata.",
@@ -2343,11 +2523,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ReplicaSet"
+          ]
         },
         "metadata": {
           "description": "If the Labels of a ReplicaSet are empty, they are defaulted to be the same as the Pod(s) that the ReplicaSet manages. Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -2407,7 +2593,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "items": {
           "description": "List of ReplicaSets. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller",
@@ -2418,7 +2607,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ReplicaSetList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -2538,11 +2730,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Scale"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.",
@@ -2604,11 +2802,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StatefulSet"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -2667,7 +2871,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "apps/v1beta2"
+          ]
         },
         "items": {
           "type": "array",
@@ -2677,7 +2884,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StatefulSetList"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta"
@@ -2814,11 +3024,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authentication.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "TokenReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -2904,11 +3120,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authentication.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "TokenReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -2994,11 +3216,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authorization.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "LocalSubjectAccessReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -3132,11 +3360,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authorization.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "SelfSubjectAccessReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -3179,11 +3413,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authorization.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "SelfSubjectRulesReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -3221,11 +3461,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authorization.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "SubjectAccessReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -3349,11 +3595,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authorization.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "LocalSubjectAccessReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -3487,11 +3739,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authorization.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "SelfSubjectAccessReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -3534,11 +3792,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authorization.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "SelfSubjectRulesReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -3576,11 +3840,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "authorization.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "SubjectAccessReview"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -3722,11 +3992,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "autoscaling/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "HorizontalPodAutoscaler"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -3757,7 +4033,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "autoscaling/v1"
+          ]
         },
         "items": {
           "description": "list of horizontal pod autoscaler objects.",
@@ -3768,7 +4047,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "HorizontalPodAutoscalerList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata.",
@@ -3849,11 +4131,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "autoscaling/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Scale"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.",
@@ -3978,11 +4266,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "autoscaling/v2beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "HorizontalPodAutoscaler"
+          ]
         },
         "metadata": {
           "description": "metadata is the standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -4042,7 +4336,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "autoscaling/v2beta1"
+          ]
         },
         "items": {
           "description": "items is the list of horizontal pod autoscaler objects.",
@@ -4053,7 +4350,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "HorizontalPodAutoscalerList"
+          ]
         },
         "metadata": {
           "description": "metadata is the standard list metadata.",
@@ -4324,11 +4624,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "batch/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Job"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -4392,7 +4698,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "batch/v1"
+          ]
         },
         "items": {
           "description": "items is the list of Jobs.",
@@ -4403,7 +4712,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "JobList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -4500,11 +4812,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "batch/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "CronJob"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -4535,7 +4853,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "batch/v1beta1"
+          ]
         },
         "items": {
           "description": "items is the list of CronJobs.",
@@ -4546,7 +4867,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "CronJobList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -4635,11 +4959,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "batch/v2alpha1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "CronJob"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -4670,7 +5000,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "batch/v2alpha1"
+          ]
         },
         "items": {
           "description": "items is the list of CronJobs.",
@@ -4681,7 +5014,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "CronJobList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -4770,11 +5106,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "certificates.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "CertificateSigningRequest"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -4826,7 +5168,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "certificates.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "type": "array",
@@ -4836,7 +5181,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "CertificateSigningRequestList"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta"
@@ -5057,11 +5405,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Binding"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -5273,7 +5627,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "conditions": {
           "description": "List of component conditions observed",
@@ -5286,7 +5643,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ComponentStatus"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -5309,7 +5669,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of ComponentStatus objects.",
@@ -5320,7 +5683,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ComponentStatusList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -5340,7 +5706,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "binaryData": {
           "description": "BinaryData contains the binary data. Each key must consist of alphanumeric characters, '-', '_' or '.'. BinaryData can contain byte sequences that are not in the UTF-8 range. The keys stored in BinaryData must not overlap with the ones in the Data field, this is enforced during validation process. Using this field will require 1.10+ apiserver and kubelet.",
@@ -5359,7 +5728,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ConfigMap"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -5415,7 +5787,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "Items is the list of ConfigMaps.",
@@ -5426,7 +5801,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ConfigMapList"
+          ]
         },
         "metadata": {
           "description": "More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -5935,11 +6313,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Endpoints"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -5969,7 +6353,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of endpoints.",
@@ -5980,7 +6367,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "EndpointsList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -6066,7 +6456,10 @@
         },
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "count": {
           "description": "The number of times this event has occurred.",
@@ -6087,7 +6480,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Event"
+          ]
         },
         "lastTimestamp": {
           "description": "The time at which the most recent occurrence of this event was recorded.",
@@ -6146,7 +6542,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of events",
@@ -6157,7 +6556,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "EventList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -6641,11 +7043,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "LimitRange"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -6716,7 +7124,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "Items is a list of LimitRange objects. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/",
@@ -6727,7 +7138,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "LimitRangeList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -6829,11 +7243,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Namespace"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -6864,7 +7284,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "Items is the list of Namespace objects in the list. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/",
@@ -6875,7 +7298,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "NamespaceList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -6916,11 +7342,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Node"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -7014,14 +7446,20 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "configMapRef": {
           "$ref": "#/definitions/io.k8s.api.core.v1.ObjectReference"
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "NodeConfigSource"
+          ]
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -7049,7 +7487,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of nodes",
@@ -7060,7 +7501,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "NodeList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -7342,11 +7786,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PersistentVolume"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -7374,11 +7824,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PersistentVolumeClaim"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -7440,7 +7896,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "A list of persistent volume claims. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims",
@@ -7451,7 +7910,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PersistentVolumeClaimList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -7554,7 +8016,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of persistent volumes. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes",
@@ -7565,7 +8030,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PersistentVolumeList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -7752,11 +8220,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Pod"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -7919,7 +8393,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of pods. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md",
@@ -7930,7 +8407,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -8196,11 +8676,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodTemplate"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -8227,7 +8713,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of pod templates",
@@ -8238,7 +8727,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodTemplateList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -8488,11 +8980,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ReplicationController"
+          ]
         },
         "metadata": {
           "description": "If the Labels of a ReplicationController are empty, they are defaulted to be the same as the Pod(s) that the replication controller manages. Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -8552,7 +9050,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of replication controllers. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller",
@@ -8563,7 +9064,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ReplicationControllerList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -8671,11 +9175,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ResourceQuota"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -8706,7 +9216,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "Items is a list of ResourceQuota objects. More info: https://kubernetes.io/docs/concepts/policy/resource-quotas/",
@@ -8717,7 +9230,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ResourceQuotaList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -8915,7 +9431,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "data": {
           "description": "Data contains the secret data. Each key must consist of alphanumeric characters, '-', '_' or '.'. The serialized form of the secret data is a base64 encoded string, representing the arbitrary (possibly non-string) data value here. Described in https://tools.ietf.org/html/rfc4648#section-4",
@@ -8927,7 +9446,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Secret"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -8994,7 +9516,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "Items is a list of secret objects. More info: https://kubernetes.io/docs/concepts/configuration/secret",
@@ -9005,7 +9530,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "SecretList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -9122,11 +9650,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Service"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -9154,7 +9688,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "automountServiceAccountToken": {
           "description": "AutomountServiceAccountToken indicates whether pods running as this service account should have an API token automatically mounted. Can be overridden at the pod level.",
@@ -9169,7 +9706,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ServiceAccount"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -9201,7 +9741,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of ServiceAccounts. More info: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/",
@@ -9212,7 +9755,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ServiceAccountList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -9235,7 +9781,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "items": {
           "description": "List of services",
@@ -9246,7 +9795,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ServiceList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -9744,7 +10296,10 @@
         },
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "events.k8s.io/v1beta1"
+          ]
         },
         "deprecatedCount": {
           "description": "Deprecated field assuring backward compatibility with core.v1 Event type",
@@ -9769,7 +10324,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Event"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -9823,7 +10381,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "events.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is a list of schema objects.",
@@ -9834,7 +10395,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "EventList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -9898,11 +10462,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DaemonSet"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -9962,7 +10532,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "items": {
           "description": "A list of daemon sets.",
@@ -9973,7 +10546,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DaemonSetList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -10105,11 +10681,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Deployment"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata.",
@@ -10173,7 +10755,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is the list of Deployments.",
@@ -10184,7 +10769,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DeploymentList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata.",
@@ -10208,11 +10796,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DeploymentRollback"
+          ]
         },
         "name": {
           "description": "Required: This must match the Name of a deployment.",
@@ -10458,11 +11052,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Ingress"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -10510,7 +11110,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is the list of Ingress.",
@@ -10521,7 +11124,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "IngressList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -10601,11 +11207,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "NetworkPolicy"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -10670,7 +11282,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is a list of schema objects.",
@@ -10681,7 +11296,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "NetworkPolicyList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -10764,11 +11382,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodSecurityPolicy"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -10795,7 +11419,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is a list of schema objects.",
@@ -10806,7 +11433,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodSecurityPolicyList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -10930,11 +11560,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ReplicaSet"
+          ]
         },
         "metadata": {
           "description": "If the Labels of a ReplicaSet are empty, they are defaulted to be the same as the Pod(s) that the ReplicaSet manages. Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -10994,7 +11630,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "items": {
           "description": "List of ReplicaSets. More info: https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller",
@@ -11005,7 +11644,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ReplicaSetList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
@@ -11157,11 +11799,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "extensions/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Scale"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.",
@@ -11258,11 +11906,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "networking.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "NetworkPolicy"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -11327,7 +11981,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "networking.k8s.io/v1"
+          ]
         },
         "items": {
           "description": "Items is a list of schema objects.",
@@ -11338,7 +11995,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "NetworkPolicyList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -11442,7 +12102,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "policy/v1beta1"
+          ]
         },
         "deleteOptions": {
           "description": "DeleteOptions may be provided",
@@ -11450,7 +12113,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Eviction"
+          ]
         },
         "metadata": {
           "description": "ObjectMeta describes the pod that is being evicted.",
@@ -11524,11 +12190,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "policy/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodDisruptionBudget"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -11558,7 +12230,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "policy/v1beta1"
+          ]
         },
         "items": {
           "type": "array",
@@ -11568,7 +12243,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodDisruptionBudgetList"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta"
@@ -11648,11 +12326,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "policy/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodSecurityPolicy"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -11679,7 +12363,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "policy/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is a list of schema objects.",
@@ -11690,7 +12377,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodSecurityPolicyList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -11884,11 +12574,17 @@
         },
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRole"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -11919,11 +12615,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRoleBinding"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -11957,7 +12659,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1"
+          ]
         },
         "items": {
           "description": "Items is a list of ClusterRoleBindings",
@@ -11968,7 +12673,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRoleBindingList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -11991,7 +12699,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1"
+          ]
         },
         "items": {
           "description": "Items is a list of ClusterRoles",
@@ -12002,7 +12713,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRoleList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12068,11 +12782,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Role"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12103,11 +12823,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "RoleBinding"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12141,7 +12867,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1"
+          ]
         },
         "items": {
           "description": "Items is a list of RoleBindings",
@@ -12152,7 +12881,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "RoleBindingList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12175,7 +12907,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1"
+          ]
         },
         "items": {
           "description": "Items is a list of Roles",
@@ -12186,7 +12921,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "RoleList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12272,11 +13010,17 @@
         },
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1alpha1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRole"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12307,11 +13051,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1alpha1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRoleBinding"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12345,7 +13095,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1alpha1"
+          ]
         },
         "items": {
           "description": "Items is a list of ClusterRoleBindings",
@@ -12356,7 +13109,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRoleBindingList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12379,7 +13135,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1alpha1"
+          ]
         },
         "items": {
           "description": "Items is a list of ClusterRoles",
@@ -12390,7 +13149,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRoleList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12456,11 +13218,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1alpha1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Role"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12491,11 +13259,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1alpha1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "RoleBinding"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12529,7 +13303,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1alpha1"
+          ]
         },
         "items": {
           "description": "Items is a list of RoleBindings",
@@ -12540,7 +13317,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "RoleBindingList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12563,7 +13343,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1alpha1"
+          ]
         },
         "items": {
           "description": "Items is a list of Roles",
@@ -12574,7 +13357,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "RoleList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12660,11 +13446,17 @@
         },
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRole"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12695,11 +13487,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRoleBinding"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12733,7 +13531,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is a list of ClusterRoleBindings",
@@ -12744,7 +13545,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRoleBindingList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12767,7 +13571,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is a list of ClusterRoles",
@@ -12778,7 +13585,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "ClusterRoleList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12844,11 +13654,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Role"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12879,11 +13695,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "RoleBinding"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12917,7 +13739,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is a list of RoleBindings",
@@ -12928,7 +13753,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "RoleBindingList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -12951,7 +13779,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "rbac.authorization.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is a list of Roles",
@@ -12962,7 +13793,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "RoleList"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata.",
@@ -13032,7 +13866,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "scheduling.k8s.io/v1alpha1"
+          ]
         },
         "description": {
           "description": "description is an arbitrary string that usually provides guidelines on when this priority class should be used.",
@@ -13044,7 +13881,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PriorityClass"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13072,7 +13912,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "scheduling.k8s.io/v1alpha1"
+          ]
         },
         "items": {
           "description": "items is the list of PriorityClasses",
@@ -13083,7 +13926,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PriorityClassList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13103,11 +13949,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "settings.k8s.io/v1alpha1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodPreset"
+          ]
         },
         "metadata": {
           "$ref": "#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta"
@@ -13132,7 +13984,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "settings.k8s.io/v1alpha1"
+          ]
         },
         "items": {
           "description": "Items is a list of schema objects.",
@@ -13143,7 +13998,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "PodPresetList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13207,11 +14065,17 @@
         },
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "storage.k8s.io/v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StorageClass"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13260,7 +14124,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "storage.k8s.io/v1"
+          ]
         },
         "items": {
           "description": "Items is the list of StorageClasses",
@@ -13271,7 +14138,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StorageClassList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13294,11 +14164,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "storage.k8s.io/v1alpha1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "VolumeAttachment"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13329,7 +14205,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "storage.k8s.io/v1alpha1"
+          ]
         },
         "items": {
           "description": "Items is the list of VolumeAttachments",
@@ -13340,7 +14219,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "VolumeAttachmentList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13438,11 +14320,17 @@
         },
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "storage.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StorageClass"
+          ]
         },
         "metadata": {
           "description": "Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13491,7 +14379,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "storage.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is the list of StorageClasses",
@@ -13502,7 +14393,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "StorageClassList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13525,11 +14419,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "storage.k8s.io/v1beta1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "VolumeAttachment"
+          ]
         },
         "metadata": {
           "description": "Standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -13560,7 +14460,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "storage.k8s.io/v1beta1"
+          ]
         },
         "items": {
           "description": "Items is the list of VolumeAttachments",
@@ -13571,7 +14474,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "VolumeAttachmentList"
+          ]
         },
         "metadata": {
           "description": "Standard list metadata More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata",
@@ -14119,11 +15025,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "APIGroup"
+          ]
         },
         "name": {
           "description": "name is the name of the group.",
@@ -14164,7 +15076,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "groups": {
           "description": "groups is a list of APIGroup.",
@@ -14175,7 +15090,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "APIGroupList"
+          ]
         }
       },
       "x-kubernetes-group-version-kind": [
@@ -14252,7 +15170,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "groupVersion": {
           "description": "groupVersion is the group and version this APIResourceList is for.",
@@ -14260,7 +15181,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "APIResourceList"
+          ]
         },
         "resources": {
           "description": "resources contains the name of the resources and if they are namespaced.",
@@ -14287,11 +15211,17 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "APIVersions"
+          ]
         },
         "serverAddressByClientCIDRs": {
           "description": "a map of client CIDR to server address that is serving this group. This is to help clients reach servers in the most network-efficient way possible. Clients can use the appropriate server address as per the CIDR that they match. In case of multiple matches, clients should use the longest matching CIDR. The server returns only those CIDRs that it thinks that the client can match. For example: the master will return an internal IP CIDR only, if the client reaches the server using an internal IP. Server looks at X-Forwarded-For header or X-Real-Ip header or request.RemoteAddr (in that order) to get the client IP.",
@@ -14321,7 +15251,39 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1",
+            "admission.k8s.io/v1beta1",
+            "admissionregistration.k8s.io/v1alpha1",
+            "admissionregistration.k8s.io/v1beta1",
+            "apps/v1",
+            "apps/v1beta1",
+            "apps/v1beta2",
+            "authentication.k8s.io/v1",
+            "authentication.k8s.io/v1beta1",
+            "authorization.k8s.io/v1",
+            "authorization.k8s.io/v1beta1",
+            "autoscaling/v1",
+            "autoscaling/v2beta1",
+            "batch/v1",
+            "batch/v1beta1",
+            "batch/v2alpha1",
+            "certificates.k8s.io/v1beta1",
+            "events.k8s.io/v1beta1",
+            "extensions/v1beta1",
+            "imagepolicy.k8s.io/v1alpha1",
+            "networking.k8s.io/v1",
+            "policy/v1beta1",
+            "rbac.authorization.k8s.io/v1",
+            "rbac.authorization.k8s.io/v1alpha1",
+            "rbac.authorization.k8s.io/v1beta1",
+            "scheduling.k8s.io/v1alpha1",
+            "settings.k8s.io/v1alpha1",
+            "storage.k8s.io/v1",
+            "storage.k8s.io/v1alpha1",
+            "storage.k8s.io/v1beta1"
+          ]
         },
         "gracePeriodSeconds": {
           "description": "The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.",
@@ -14330,7 +15292,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "DeleteOptions"
+          ]
         },
         "orphanDependents": {
           "description": "Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both.",
@@ -14769,7 +15734,10 @@
       "properties": {
         "apiVersion": {
           "description": "APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#resources",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "v1"
+          ]
         },
         "code": {
           "description": "Suggested HTTP return code for this status, 0 if not set.",
@@ -14782,7 +15750,10 @@
         },
         "kind": {
           "description": "Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds",
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Status"
+          ]
         },
         "message": {
           "description": "A human-readable description of the status of this operation.",

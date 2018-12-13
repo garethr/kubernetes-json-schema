@@ -6,6 +6,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "batch/v1"
       ]
     },
     "kind": {
@@ -13,6 +16,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "Job"
       ]
     },
     "metadata": {
@@ -113,6 +119,9 @@
                   "type": [
                     "string",
                     "null"
+                  ],
+                  "enum": [
+                    "v1"
                   ]
                 },
                 "code": {
@@ -198,6 +207,9 @@
                   "type": [
                     "string",
                     "null"
+                  ],
+                  "enum": [
+                    "Status"
                   ]
                 },
                 "message": {
@@ -541,6 +553,9 @@
                           "type": [
                             "string",
                             "null"
+                          ],
+                          "enum": [
+                            "v1"
                           ]
                         },
                         "code": {
@@ -626,6 +641,9 @@
                           "type": [
                             "string",
                             "null"
+                          ],
+                          "enum": [
+                            "Status"
                           ]
                         },
                         "message": {

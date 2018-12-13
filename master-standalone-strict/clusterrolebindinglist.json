@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "rbac.authorization.k8s.io/v1beta1"
       ]
     },
     "items": {
@@ -28,6 +31,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "rbac.authorization.k8s.io/v1beta1"
             ]
           },
           "kind": {
@@ -35,6 +41,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "ClusterRoleBinding"
             ]
           },
           "metadata": {
@@ -137,6 +146,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -222,6 +234,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -456,6 +471,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "ClusterRoleBindingList"
       ]
     },
     "metadata": {

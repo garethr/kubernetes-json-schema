@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "v1"
       ]
     },
     "items": {
@@ -36,6 +39,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "v1"
             ]
           },
           "count": {
@@ -116,6 +122,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "Event"
             ]
           },
           "lastTimestamp": {
@@ -229,6 +238,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -312,6 +324,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -603,6 +618,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "EventList"
       ]
     },
     "metadata": {

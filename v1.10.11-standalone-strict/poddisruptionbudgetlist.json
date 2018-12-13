@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "policy/v1beta1"
       ]
     },
     "items": {
@@ -24,6 +27,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "policy/v1beta1"
             ]
           },
           "kind": {
@@ -31,6 +37,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "PodDisruptionBudget"
             ]
           },
           "metadata": {
@@ -131,6 +140,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -216,6 +228,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -525,6 +540,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "PodDisruptionBudgetList"
       ]
     },
     "metadata": {

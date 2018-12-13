@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "extensions/v1beta1"
       ]
     },
     "items": {
@@ -25,6 +28,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "extensions/v1beta1"
             ]
           },
           "kind": {
@@ -32,6 +38,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "DaemonSet"
             ]
           },
           "metadata": {
@@ -132,6 +141,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "v1"
                         ]
                       },
                       "code": {
@@ -217,6 +229,9 @@
                         "type": [
                           "string",
                           "null"
+                        ],
+                        "enum": [
+                          "Status"
                         ]
                       },
                       "message": {
@@ -546,6 +561,9 @@
                                 "type": [
                                   "string",
                                   "null"
+                                ],
+                                "enum": [
+                                  "v1"
                                 ]
                               },
                               "code": {
@@ -631,6 +649,9 @@
                                 "type": [
                                   "string",
                                   "null"
+                                ],
+                                "enum": [
+                                  "Status"
                                 ]
                               },
                               "message": {
@@ -5240,6 +5261,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "DaemonSetList"
       ]
     },
     "metadata": {

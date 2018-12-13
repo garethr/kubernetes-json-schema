@@ -9,6 +9,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "v1"
       ]
     },
     "groups": {
@@ -29,6 +32,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "v1"
             ]
           },
           "kind": {
@@ -36,6 +42,9 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "APIGroup"
             ]
           },
           "name": {
@@ -123,6 +132,9 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "APIGroupList"
       ]
     }
   },
