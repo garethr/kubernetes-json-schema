@@ -1,21 +1,6 @@
 {
-  "$schema": "http://json-schema.org/schema#", 
-  "type": "object", 
-  "description": "NonResourceAttributes includes the authorization attributes available for non-resource requests to the Authorizer interface", 
-  "properties": {
-    "path": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "Path is the URL path of the request"
-    }, 
-    "verb": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "Verb is the standard HTTP verb"
-    }
-  }
+  "description": "Deprecated. Please use io.k8s.api.authorization.v1beta1.NonResourceAttributes instead.",
+  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.12.2/_definitions.json#/definitions/io.k8s.api.authorization.v1beta1.NonResourceAttributes",
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object"
 }

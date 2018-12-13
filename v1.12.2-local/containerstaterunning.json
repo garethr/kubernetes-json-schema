@@ -1,11 +1,6 @@
 {
-  "$schema": "http://json-schema.org/schema#", 
-  "type": "object", 
-  "description": "ContainerStateRunning is a running state of a container.", 
-  "properties": {
-    "startedAt": {
-      "description": "Time at which the container was last (re-)started", 
-      "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
-    }
-  }
+  "description": "Deprecated. Please use io.k8s.api.core.v1.ContainerStateRunning instead.",
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ContainerStateRunning",
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object"
 }

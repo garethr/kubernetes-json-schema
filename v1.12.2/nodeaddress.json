@@ -1,25 +1,6 @@
 {
-  "$schema": "http://json-schema.org/schema#", 
-  "required": [
-    "type", 
-    "address"
-  ], 
-  "type": "object", 
-  "description": "NodeAddress contains information for the node's address.", 
-  "properties": {
-    "type": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "Node address type, one of Hostname, ExternalIP or InternalIP."
-    }, 
-    "address": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "The node address."
-    }
-  }
+  "description": "Deprecated. Please use io.k8s.api.core.v1.NodeAddress instead.",
+  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/v1.12.2/_definitions.json#/definitions/io.k8s.api.core.v1.NodeAddress",
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object"
 }

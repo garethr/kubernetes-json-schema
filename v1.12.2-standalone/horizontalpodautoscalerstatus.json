@@ -1,37 +1,37 @@
 {
+  "description": "current status of a horizontal pod autoscaler",
   "required": [
-    "currentReplicas", 
+    "currentReplicas",
     "desiredReplicas"
-  ], 
-  "description": "current status of a horizontal pod autoscaler", 
+  ],
   "properties": {
-    "observedGeneration": {
-      "type": "integer", 
-      "description": "most recent generation observed by this autoscaler.", 
-      "format": "int64"
-    }, 
-    "currentReplicas": {
-      "type": "integer", 
-      "description": "current number of replicas of pods managed by this autoscaler.", 
-      "format": "int32"
-    }, 
-    "lastScaleTime": {
-      "type": [
-        "string", 
-        "null"
-      ], 
-      "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
-      "format": "date-time"
-    }, 
     "currentCPUUtilizationPercentage": {
-      "type": "integer", 
-      "description": "current average CPU utilization over all pods, represented as a percentage of requested CPU, e.g. 70 means that an average pod is using now 70% of its requested CPU.", 
+      "description": "current average CPU utilization over all pods, represented as a percentage of requested CPU, e.g. 70 means that an average pod is using now 70% of its requested CPU.",
+      "type": "integer",
       "format": "int32"
-    }, 
+    },
+    "currentReplicas": {
+      "description": "current number of replicas of pods managed by this autoscaler.",
+      "type": "integer",
+      "format": "int32"
+    },
     "desiredReplicas": {
-      "type": "integer", 
-      "description": "desired number of replicas of pods managed by this autoscaler.", 
+      "description": "desired number of replicas of pods managed by this autoscaler.",
+      "type": "integer",
       "format": "int32"
+    },
+    "lastScaleTime": {
+      "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.",
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "observedGeneration": {
+      "description": "most recent generation observed by this autoscaler.",
+      "type": "integer",
+      "format": "int64"
     }
   }
 }

@@ -1,21 +1,6 @@
 {
-  "$schema": "http://json-schema.org/schema#", 
-  "type": "object", 
-  "description": "CronJobStatus represents the current state of a cron job.", 
-  "properties": {
-    "active": {
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/master/_definitions.json#/definitions/io.k8s.api.core.v1.ObjectReference"
-      }, 
-      "type": [
-        "array", 
-        "null"
-      ], 
-      "description": "A list of pointers to currently running jobs."
-    }, 
-    "lastScheduleTime": {
-      "description": "Information when was the last time the job was successfully scheduled.", 
-      "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/master/_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.Time"
-    }
-  }
+  "description": "Deprecated. Please use io.k8s.api.batch.v2alpha1.CronJobStatus instead.",
+  "$ref": "https://raw.githubusercontent.com/garethr/kubernetes-json-schema/master/master/_definitions.json#/definitions/io.k8s.api.batch.v2alpha1.CronJobStatus",
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object"
 }

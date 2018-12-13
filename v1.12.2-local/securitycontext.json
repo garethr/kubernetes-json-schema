@@ -1,6 +1,6 @@
 {
-  "$schema": "http://json-schema.org/schema#", 
-  "type": "object", 
-  "description": "Deprecated. Please use io.k8s.api.core.v1.SecurityContext instead.", 
-  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SecurityContext"
+  "description": "Deprecated. Please use io.k8s.api.core.v1.SecurityContext instead.",
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SecurityContext",
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object"
 }

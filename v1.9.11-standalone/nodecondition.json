@@ -1,0 +1,51 @@
+{
+  "description": "NodeCondition contains condition information for a node.",
+  "required": [
+    "type",
+    "status"
+  ],
+  "properties": {
+    "lastHeartbeatTime": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "lastTransitionTime": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "message": {
+      "description": "Human readable message indicating details about last transition.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reason": {
+      "description": "(brief) reason for the condition's last transition.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "description": "Status of the condition, one of True, False, Unknown.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "type": {
+      "description": "Type of node condition.",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
