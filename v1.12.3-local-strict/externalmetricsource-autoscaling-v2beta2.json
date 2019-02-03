@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ExternalMetricSource indicates how to scale on a metric not associated with any Kubernetes object (for example length of queue in cloud messaging service, or QPS from loadbalancer running outside of cluster).", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta2.ExternalMetricSource"
+}

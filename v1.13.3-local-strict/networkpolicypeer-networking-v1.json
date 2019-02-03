@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "NetworkPolicyPeer describes a peer to allow traffic from. Only certain combinations of fields are allowed", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyPeer"
+}

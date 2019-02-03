@@ -1,6 +1,0 @@
-{
-  "$schema": "http://json-schema.org/schema#", 
-  "type": "object", 
-  "description": "DEPRECATED - This group version of ReplicaSet is deprecated by apps/v1beta2/ReplicaSet. See the release notes for more information. ReplicaSet represents the configuration of a ReplicaSet.", 
-  "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSet"
-}

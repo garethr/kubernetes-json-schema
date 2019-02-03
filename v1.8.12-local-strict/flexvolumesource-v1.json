@@ -1,6 +1,0 @@
-{
-  "$schema": "http://json-schema.org/schema#", 
-  "type": "object", 
-  "description": "FlexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin. This is an alpha feature and may change in future.", 
-  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.FlexVolumeSource"
-}
