@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "FlowSchemaSpec describes how the FlowSchema's specification looks like.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.flowcontrol.v1alpha1.FlowSchemaSpec"
+}

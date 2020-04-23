@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Overhead structure represents the resource overhead associated with running a pod.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.node.v1alpha1.Overhead"
+}

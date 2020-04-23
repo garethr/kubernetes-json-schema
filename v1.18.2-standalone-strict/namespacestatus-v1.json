@@ -1,0 +1,63 @@
+{
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "NamespaceStatus is information about the current status of a Namespace.", 
+  "properties": {
+    "phase": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "Phase is the current lifecycle phase of the namespace. More info: https://kubernetes.io/docs/tasks/administer-cluster/namespaces/"
+    }, 
+    "conditions": {
+      "items": {
+        "additionalProperties": false, 
+        "required": [
+          "type", 
+          "status"
+        ], 
+        "type": "object", 
+        "description": "NamespaceCondition contains details about state of namespace.", 
+        "properties": {
+          "status": {
+            "type": "string", 
+            "description": "Status of the condition, one of True, False, Unknown."
+          }, 
+          "lastTransitionTime": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
+            "format": "date-time"
+          }, 
+          "message": {
+            "type": [
+              "string", 
+              "null"
+            ]
+          }, 
+          "type": {
+            "type": "string", 
+            "description": "Type of namespace controller condition."
+          }, 
+          "reason": {
+            "type": [
+              "string", 
+              "null"
+            ]
+          }
+        }
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "Represents the latest available observations of a namespace's current state.", 
+      "x-kubernetes-patch-strategy": "merge", 
+      "x-kubernetes-patch-merge-key": "type"
+    }
+  }
+}

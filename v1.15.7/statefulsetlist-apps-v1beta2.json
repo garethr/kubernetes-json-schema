@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "StatefulSetList is a collection of StatefulSets.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetList"
+}

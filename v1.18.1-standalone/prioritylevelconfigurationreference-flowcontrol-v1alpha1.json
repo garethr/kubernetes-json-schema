@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "required": [
+    "name"
+  ], 
+  "type": "object", 
+  "description": "PriorityLevelConfigurationReference contains information that points to the \"request-priority\" being used.", 
+  "properties": {
+    "name": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "`name` is the name of the priority level configuration being referenced Required."
+    }
+  }
+}

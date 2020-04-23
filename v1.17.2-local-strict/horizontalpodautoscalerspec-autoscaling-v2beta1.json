@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "HorizontalPodAutoscalerSpec describes the desired functionality of the HorizontalPodAutoscaler.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerSpec"
+}

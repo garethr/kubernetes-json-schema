@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Lease defines a lease concept.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.coordination.v1.Lease"
+}

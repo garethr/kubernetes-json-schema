@@ -1,0 +1,64 @@
+{
+  "description": "TokenRequestSpec contains client provided parameters of a token request.", 
+  "required": [
+    "audiences"
+  ], 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "properties": {
+    "audiences": {
+      "items": {
+        "type": [
+          "string", 
+          "null"
+        ]
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "Audiences are the intendend audiences of the token. A recipient of a token must identitfy themself with an identifier in the list of audiences of the token, and otherwise should reject the token. A token issued for multiple audiences may be used to authenticate against any of the audiences listed but implies a high degree of trust between the target audiences."
+    }, 
+    "boundObjectRef": {
+      "additionalProperties": false, 
+      "type": "object", 
+      "description": "BoundObjectReference is a reference to an object that a token is bound to.", 
+      "properties": {
+        "kind": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "Kind of the referent. Valid kinds are 'Pod' and 'Secret'."
+        }, 
+        "name": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "Name of the referent."
+        }, 
+        "apiVersion": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "API version of the referent."
+        }, 
+        "uid": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "UID of the referent."
+        }
+      }
+    }, 
+    "expirationSeconds": {
+      "type": "integer", 
+      "description": "ExpirationSeconds is the requested duration of validity of the request. The token issuer may return a token with a different validity duration so a client needs to check the 'expiration' field in a response.", 
+      "format": "int64"
+    }
+  }
+}

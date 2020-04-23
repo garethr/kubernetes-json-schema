@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ComponentStatus (and ComponentStatusList) holds the cluster validation info.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ComponentStatus"
+}

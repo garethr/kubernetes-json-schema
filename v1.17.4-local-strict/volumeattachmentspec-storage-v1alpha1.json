@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "VolumeAttachmentSpec is the specification of a VolumeAttachment request.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1alpha1.VolumeAttachmentSpec"
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "PodSecurityPolicy governs the ability to make requests that affect the Security Context that will be applied to a pod and container. Deprecated: use PodSecurityPolicy from policy API Group instead.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.PodSecurityPolicy"
+}

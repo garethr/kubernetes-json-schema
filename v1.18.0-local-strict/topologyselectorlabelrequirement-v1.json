@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "A topology selector requirement is a selector that matches given label. This is an alpha feature and may change in the future.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.TopologySelectorLabelRequirement"
+}

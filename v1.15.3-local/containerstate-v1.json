@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ContainerState holds a possible state of container. Only one of its members may be specified. If none of them is specified, the default one is ContainerStateWaiting.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ContainerState"
+}

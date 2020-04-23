@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "specification of a horizontal pod autoscaler.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerSpec"
+}

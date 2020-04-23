@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "LimitRangeItem defines a min/max usage limit for any resource that matches on kind.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.LimitRangeItem"
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "PodsMetricStatus indicates the current value of a metric describing each pod in the current scale target (for example, transactions-processed-per-second).", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta2.PodsMetricStatus"
+}

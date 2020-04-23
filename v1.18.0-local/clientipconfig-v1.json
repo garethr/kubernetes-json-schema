@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ClientIPConfig represents the configurations of Client IP based session affinity.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ClientIPConfig"
+}

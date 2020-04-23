@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "FlowSchemaList is a list of FlowSchema objects.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.flowcontrol.v1alpha1.FlowSchemaList"
+}

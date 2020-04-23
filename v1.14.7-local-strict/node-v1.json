@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Node is a worker node in Kubernetes. Each node will have a unique identifier in the cache (i.e. in etcd).", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.Node"
+}

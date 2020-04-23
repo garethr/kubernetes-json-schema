@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ValidatingWebhook describes an admission webhook and the resources and operations it applies to.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingWebhook"
+}

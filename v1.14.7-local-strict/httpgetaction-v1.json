@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "HTTPGetAction describes an action based on HTTP Get requests.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.HTTPGetAction"
+}

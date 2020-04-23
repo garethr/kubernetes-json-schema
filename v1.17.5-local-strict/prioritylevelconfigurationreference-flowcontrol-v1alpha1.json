@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "PriorityLevelConfigurationReference contains information that points to the \"request-priority\" being used.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.flowcontrol.v1alpha1.PriorityLevelConfigurationReference"
+}

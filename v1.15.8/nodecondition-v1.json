@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "NodeCondition contains condition information for a node.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeCondition"
+}

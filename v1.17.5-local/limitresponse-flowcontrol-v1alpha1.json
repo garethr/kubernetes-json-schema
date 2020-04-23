@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "LimitResponse defines how to handle requests that can not be executed right now.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.flowcontrol.v1alpha1.LimitResponse"
+}

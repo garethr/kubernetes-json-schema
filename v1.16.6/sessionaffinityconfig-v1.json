@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "SessionAffinityConfig represents the configurations of session affinity.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.SessionAffinityConfig"
+}

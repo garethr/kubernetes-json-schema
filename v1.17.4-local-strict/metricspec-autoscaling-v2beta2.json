@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "MetricSpec specifies how to scale based on a single metric (only `type` and one other matching field should be set at once).", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta2.MetricSpec"
+}

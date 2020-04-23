@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "NetworkPolicyIngressRule describes a particular set of traffic that is allowed to the pods matched by a NetworkPolicySpec's podSelector. The traffic must match both ports and from.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyIngressRule"
+}

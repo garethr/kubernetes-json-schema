@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ValidatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and object without changing it.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingWebhookConfiguration"
+}

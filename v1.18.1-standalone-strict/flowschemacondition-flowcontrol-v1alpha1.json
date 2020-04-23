@@ -1,0 +1,44 @@
+{
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "FlowSchemaCondition describes conditions for a FlowSchema.", 
+  "properties": {
+    "status": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "`status` is the status of the condition. Can be True, False, Unknown. Required."
+    }, 
+    "type": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "`type` is the type of the condition. Required."
+    }, 
+    "message": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "`message` is a human-readable message indicating details about last transition."
+    }, 
+    "lastTransitionTime": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
+      "format": "date-time"
+    }, 
+    "reason": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "`reason` is a unique, one-word, CamelCase reason for the condition's last transition."
+    }
+  }
+}

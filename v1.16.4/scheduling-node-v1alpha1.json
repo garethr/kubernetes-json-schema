@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "Scheduling specifies the scheduling constraints for nodes supporting a RuntimeClass.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.node.v1alpha1.Scheduling"
+}

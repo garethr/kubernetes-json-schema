@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "AuditSinkSpec holds the spec for the audit sink", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.auditregistration.v1alpha1.AuditSinkSpec"
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "APIGroupList is a list of APIGroup, to allow clients to discover the API at /apis.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.APIGroupList"
+}

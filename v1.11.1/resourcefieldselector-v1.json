@@ -1,6 +1,0 @@
-{
-  "$schema": "http://json-schema.org/schema#", 
-  "type": "object", 
-  "description": "ResourceFieldSelector represents container resources (cpu, memory) and their output format", 
-  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ResourceFieldSelector"
-}

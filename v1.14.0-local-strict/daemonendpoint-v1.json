@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "DaemonEndpoint contains information about a single Daemon endpoint.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.DaemonEndpoint"
+}

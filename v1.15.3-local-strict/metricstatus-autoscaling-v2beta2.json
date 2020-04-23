@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "MetricStatus describes the last-read state of a single metric.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta2.MetricStatus"
+}

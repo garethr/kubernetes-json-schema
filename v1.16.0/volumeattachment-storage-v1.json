@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.\n\nVolumeAttachment objects are non-namespaced.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1.VolumeAttachment"
+}

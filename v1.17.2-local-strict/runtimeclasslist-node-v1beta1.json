@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "RuntimeClassList is a list of RuntimeClass objects.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.node.v1beta1.RuntimeClassList"
+}

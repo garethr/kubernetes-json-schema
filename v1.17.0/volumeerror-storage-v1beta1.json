@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "VolumeError captures an error encountered during a volume operation.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1beta1.VolumeError"
+}

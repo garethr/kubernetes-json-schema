@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "required": [
+    "type"
+  ], 
+  "type": "object", 
+  "description": "FlowDistinguisherMethod specifies the method of a flow distinguisher.", 
+  "properties": {
+    "type": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "`type` is the type of flow distinguisher method The supported types are \"ByUser\" and \"ByNamespace\". Required."
+    }
+  }
+}

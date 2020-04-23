@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "EnvFromSource represents the source of a set of ConfigMaps", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EnvFromSource"
+}

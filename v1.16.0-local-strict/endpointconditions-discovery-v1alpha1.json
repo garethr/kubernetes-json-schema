@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "EndpointConditions represents the current condition of an endpoint.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.discovery.v1alpha1.EndpointConditions"
+}

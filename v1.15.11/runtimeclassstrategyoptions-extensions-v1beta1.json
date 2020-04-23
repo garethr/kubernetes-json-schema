@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "RuntimeClassStrategyOptions define the strategy that will dictate the allowable RuntimeClasses for a pod.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.extensions.v1beta1.RuntimeClassStrategyOptions"
+}

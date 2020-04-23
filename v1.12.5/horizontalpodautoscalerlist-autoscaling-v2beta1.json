@@ -1,6 +1,0 @@
-{
-  "$schema": "http://json-schema.org/schema#", 
-  "type": "object", 
-  "description": "HorizontalPodAutoscaler is a list of horizontal pod autoscaler objects.", 
-  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta1.HorizontalPodAutoscalerList"
-}

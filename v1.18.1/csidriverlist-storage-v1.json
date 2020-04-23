@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "CSIDriverList is a collection of CSIDriver objects.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1.CSIDriverList"
+}

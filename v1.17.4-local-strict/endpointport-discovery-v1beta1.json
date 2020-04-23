@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "EndpointPort represents a Port used by an EndpointSlice", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.discovery.v1beta1.EndpointPort"
+}

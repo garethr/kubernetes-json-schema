@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "NodeAddress contains information for the node's address.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.NodeAddress"
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ResourceQuota sets aggregate quota restrictions enforced per namespace", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.ResourceQuota"
+}

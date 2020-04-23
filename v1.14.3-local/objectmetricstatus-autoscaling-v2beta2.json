@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "ObjectMetricStatus indicates the current value of a metric describing a kubernetes object (for example, hits-per-second on an Ingress object).", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta2.ObjectMetricStatus"
+}

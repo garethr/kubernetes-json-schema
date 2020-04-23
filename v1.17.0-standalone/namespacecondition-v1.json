@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "required": [
+    "type", 
+    "status"
+  ], 
+  "type": "object", 
+  "description": "NamespaceCondition contains details about state of namespace.", 
+  "properties": {
+    "status": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "Status of the condition, one of True, False, Unknown."
+    }, 
+    "lastTransitionTime": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
+      "format": "date-time"
+    }, 
+    "message": {
+      "type": [
+        "string", 
+        "null"
+      ]
+    }, 
+    "type": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "Type of namespace controller condition."
+    }, 
+    "reason": {
+      "type": [
+        "string", 
+        "null"
+      ]
+    }
+  }
+}

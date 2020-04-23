@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "required": [
+    "acceptedNames", 
+    "storedVersions"
+  ], 
+  "type": "object", 
+  "description": "CustomResourceDefinitionStatus indicates the state of the CustomResourceDefinition", 
+  "properties": {
+    "acceptedNames": {
+      "required": [
+        "plural", 
+        "kind"
+      ], 
+      "type": "object", 
+      "description": "CustomResourceDefinitionNames indicates the names to serve this CustomResourceDefinition", 
+      "properties": {
+        "shortNames": {
+          "items": {
+            "type": [
+              "string", 
+              "null"
+            ]
+          }, 
+          "type": [
+            "array", 
+            "null"
+          ], 
+          "description": "shortNames are short names for the resource, exposed in API discovery documents, and used by clients to support invocations like `kubectl get <shortname>`. It must be all lowercase."
+        }, 
+        "kind": {
+          "type": "string", 
+          "description": "kind is the serialized kind of the resource. It is normally CamelCase and singular. Custom resource instances will use this value as the `kind` attribute in API calls."
+        }, 
+        "singular": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "singular is the singular name of the resource. It must be all lowercase. Defaults to lowercased `kind`."
+        }, 
+        "listKind": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "listKind is the serialized kind of the list for this resource. Defaults to \"`kind`List\"."
+        }, 
+        "plural": {
+          "type": "string", 
+          "description": "plural is the plural name of the resource to serve. The custom resources are served under `/apis/<group>/<version>/.../<plural>`. Must match the name of the CustomResourceDefinition (in the form `<names.plural>.<group>`). Must be all lowercase."
+        }, 
+        "categories": {
+          "items": {
+            "type": [
+              "string", 
+              "null"
+            ]
+          }, 
+          "type": [
+            "array", 
+            "null"
+          ], 
+          "description": "categories is a list of grouped resources this custom resource belongs to (e.g. 'all'). This is published in API discovery documents, and used by clients to support invocations like `kubectl get all`."
+        }
+      }
+    }, 
+    "conditions": {
+      "items": {
+        "required": [
+          "type", 
+          "status"
+        ], 
+        "type": "object", 
+        "description": "CustomResourceDefinitionCondition contains details for the current condition of this pod.", 
+        "properties": {
+          "status": {
+            "type": "string", 
+            "description": "status is the status of the condition. Can be True, False, Unknown."
+          }, 
+          "lastTransitionTime": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
+            "format": "date-time"
+          }, 
+          "message": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "message is a human-readable message indicating details about last transition."
+          }, 
+          "type": {
+            "type": "string", 
+            "description": "type is the type of the condition. Types include Established, NamesAccepted and Terminating."
+          }, 
+          "reason": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "reason is a unique, one-word, CamelCase reason for the condition's last transition."
+          }
+        }
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "conditions indicate state for particular aspects of a CustomResourceDefinition"
+    }, 
+    "storedVersions": {
+      "items": {
+        "type": [
+          "string", 
+          "null"
+        ]
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "storedVersions lists all versions of CustomResources that were ever persisted. Tracking these versions allows a migration path for stored versions in etcd. The field is mutable so a migration controller can finish a migration to another version (ensuring no old objects are left in storage), and then remove the rest of the versions from this list. Versions may not be removed from `spec.versions` while they exist in this list."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "IngressClassSpec provides information about the class of an Ingress.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.networking.v1beta1.IngressClassSpec"
+}

@@ -1,0 +1,36 @@
+{
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "BoundObjectReference is a reference to an object that a token is bound to.", 
+  "properties": {
+    "kind": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "Kind of the referent. Valid kinds are 'Pod' and 'Secret'."
+    }, 
+    "name": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "Name of the referent."
+    }, 
+    "apiVersion": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "API version of the referent."
+    }, 
+    "uid": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "UID of the referent."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "PodDisruptionBudget is an object to define the max disruption that can be caused to a collection of pods", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudget"
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "PodSpec is a description of a pod.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.PodSpec"
+}

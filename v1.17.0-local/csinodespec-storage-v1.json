@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "CSINodeSpec holds information about the specification of all CSI drivers installed on a node", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.storage.v1.CSINodeSpec"
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "HPAScalingPolicy is a single policy which must hold true for a specified past interval.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.autoscaling.v2beta2.HPAScalingPolicy"
+}

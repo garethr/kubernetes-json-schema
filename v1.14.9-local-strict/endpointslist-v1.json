@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "EndpointsList is a list of endpoints.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.EndpointsList"
+}

@@ -1,0 +1,18 @@
+{
+  "description": "AllowedCSIDriver represents a single inline CSI Driver that is allowed to be used.", 
+  "required": [
+    "name"
+  ], 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "properties": {
+    "name": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "Name is the registered name of the CSI driver"
+    }
+  }
+}

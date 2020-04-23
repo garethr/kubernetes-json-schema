@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "FlexPersistentVolumeSource represents a generic persistent volume resource that is provisioned/attached using an exec based plugin.", 
+  "$ref": "_definitions.json#/definitions/io.k8s.api.core.v1.FlexPersistentVolumeSource"
+}

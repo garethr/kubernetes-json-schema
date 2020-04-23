@@ -1,0 +1,109 @@
+{
+  "description": "Endpoint represents a single logical \"backend\" implementing a service.", 
+  "required": [
+    "addresses"
+  ], 
+  "additionalProperties": false, 
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "properties": {
+    "hostname": {
+      "type": [
+        "string", 
+        "null"
+      ], 
+      "description": "hostname of this endpoint. This field may be used by consumers of endpoints to distinguish endpoints from each other (e.g. in DNS names). Multiple endpoints which use the same hostname should be considered fungible (e.g. multiple A values in DNS). Must pass DNS Label (RFC 1123) validation."
+    }, 
+    "conditions": {
+      "additionalProperties": false, 
+      "type": "object", 
+      "description": "EndpointConditions represents the current condition of an endpoint.", 
+      "properties": {
+        "ready": {
+          "type": "boolean", 
+          "description": "ready indicates that this endpoint is prepared to receive traffic, according to whatever system is managing the endpoint. A nil value indicates an unknown state. In most cases consumers should interpret this unknown state as ready."
+        }
+      }
+    }, 
+    "addresses": {
+      "items": {
+        "type": [
+          "string", 
+          "null"
+        ]
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "addresses of this endpoint. The contents of this field are interpreted according to the corresponding EndpointSlice addressType field. Consumers must handle different types of addresses in the context of their own capabilities. This must contain at least one address but no more than 100.", 
+      "x-kubernetes-list-type": "set"
+    }, 
+    "targetRef": {
+      "additionalProperties": false, 
+      "type": "object", 
+      "description": "ObjectReference contains enough information to let you inspect or modify the referred object.", 
+      "properties": {
+        "kind": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
+        }, 
+        "name": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names"
+        }, 
+        "namespace": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/"
+        }, 
+        "apiVersion": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "API version of the referent."
+        }, 
+        "fieldPath": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: \"spec.containers{name}\" (where \"name\" refers to the name of the container that triggered the event) or if no container name is specified \"spec.containers[2]\" (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object."
+        }, 
+        "resourceVersion": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency"
+        }, 
+        "uid": {
+          "type": [
+            "string", 
+            "null"
+          ], 
+          "description": "UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids"
+        }
+      }
+    }, 
+    "topology": {
+      "additionalProperties": {
+        "type": [
+          "string", 
+          "null"
+        ]
+      }, 
+      "type": "object", 
+      "description": "topology contains arbitrary topology information associated with the endpoint. These key/value pairs must conform with the label format. https://kubernetes.io/docs/concepts/overview/working-with-objects/labels Topology may include a maximum of 16 key/value pairs. This includes, but is not limited to the following well known keys: * kubernetes.io/hostname: the value indicates the hostname of the node\n  where the endpoint is located. This should match the corresponding\n  node label.\n* topology.kubernetes.io/zone: the value indicates the zone where the\n  endpoint is located. This should match the corresponding node label.\n* topology.kubernetes.io/region: the value indicates the region where the\n  endpoint is located. This should match the corresponding node label."
+    }
+  }
+}

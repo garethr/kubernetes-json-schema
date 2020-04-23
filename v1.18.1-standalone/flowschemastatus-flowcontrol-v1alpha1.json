@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/schema#", 
+  "type": "object", 
+  "description": "FlowSchemaStatus represents the current state of a FlowSchema.", 
+  "properties": {
+    "conditions": {
+      "items": {
+        "type": "object", 
+        "description": "FlowSchemaCondition describes conditions for a FlowSchema.", 
+        "properties": {
+          "status": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "`status` is the status of the condition. Can be True, False, Unknown. Required."
+          }, 
+          "lastTransitionTime": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON.  Wrappers are provided for many of the factory methods that the time package offers.", 
+            "format": "date-time"
+          }, 
+          "message": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "`message` is a human-readable message indicating details about last transition."
+          }, 
+          "type": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "`type` is the type of the condition. Required."
+          }, 
+          "reason": {
+            "type": [
+              "string", 
+              "null"
+            ], 
+            "description": "`reason` is a unique, one-word, CamelCase reason for the condition's last transition."
+          }
+        }
+      }, 
+      "type": [
+        "array", 
+        "null"
+      ], 
+      "description": "`conditions` is a list of the current states of FlowSchema.", 
+      "x-kubernetes-list-map-keys": [
+        "type"
+      ], 
+      "x-kubernetes-list-type": "map"
+    }
+  }
+}
